@@ -1,0 +1,54 @@
+/* EDITA SÓLO EL HEADER, que qudeda importado en el App.jsx para que funcionen los estilos */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    background-color: rgb(88, 96, 114);
+    /* border-radius: 60px; */
+    height: 60px;
+    position: fixed; /* Fija el elemento */
+    top: 0; /* Lo ubica en la parte superior de la ventana */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex; /* Para organizar el contenido */
+    align-items: center; /* Alinea los elementos verticalmente */
+    padding: 0 20px; /* Agrega algo de espacio a los lados */
+}
+
+.ulList{
+    /* border: 1px solid white; */
+    font-size: 16px;
+    color: white;
+    list-style: none;
+    font-family: inherit;
+    display: flex;
+    padding: 10px;
+}
+
+.home{
+    margin: 0px 70px 0px 100px;
+    font-size: 18px;
+    /* background-color: rgb(87, 87, 87); */
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 1); /* Efecto de iluminación */
+    color: #ffffff; /* Color del texto */
+    /* font-size: 1rem;  Cambia el tamaño del texto */
+}
+
+.aboutMe{
+    padding: 0px 70px 0px 440px;  /*Mover a partir de aqui a la derecha */
+}
+
+.projects{
+    padding: 0px 70px 0px 80px;
+}
+
+.skills{
+    padding: 0px 70px 0px 80px;
+}
+
+.contact{
+    padding: 0px 70px 0px 80px;
+}

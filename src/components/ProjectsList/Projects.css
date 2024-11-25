@@ -1,0 +1,87 @@
+.projects-container {
+    background-color: #f7f7f7a2;
+    display: flex;
+    flex-wrap: wrap; /* Los elementos pasan a la siguiente línea si no caben */
+    gap: 150px; /* Espaciado entre los elementos */
+    justify-content: center; /* Centra los elementos */
+    text-align: center; /* Centra el texto */
+    width: 100vw; /* Asegura que ocupe todo el ancho de la página */
+    padding: 10px; /* Espacio interno para evitar que queden pegados a los bordes */
+    box-sizing: border-box; /* Incluye padding y bordes en el cálculo del tamaño */
+    /* margin-bottom: -300px; */
+}
+
+.projectName{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: light;
+}
+
+.smartphone {
+    width: 120px; /* Ancho del smartphone */
+    height: 210px; /* Alto del smartphone */
+    background: #000000; /* Cuerpo negro del teléfono */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 5px 5px 0px 5px;
+    position: relative; /* Para posicionar los elementos internos */
+    box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.6),   /* Sombra suave detrás del teléfono */
+        0 10px 20px rgba(0, 0, 0, 0.6),  /* Sombra difusa más grande */
+        0 15px 30px rgba(0, 0, 0, 0.6);  /* Sombra más pronunciada para dar profundidad */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alineación vertical */
+}
+
+.smartphone::before {
+    content: ""; /* Agregar contenido al screen*/
+    width: 60px; /* Tamaño del altavoz */
+    height: 10px; /* Alto del altavoz */
+    background: #3f3f3f; /* Color del altavoz */
+    border-radius: 20px;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.smartphone .screen {
+    width: 100%;
+    height: 98%; /* Altura relativa para dejar espacio para botones */
+    background: #ffffff; /* Fondo blanco */
+    border-radius: 11px; /* Bordes redondeados */
+    overflow: hidden; /* Asegúrate de que el contenido no se salga */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+        0 0 15px rgba(255, 255, 255, 0.7),  /* Resplandor suave */
+        0 0 30px rgba(255, 255, 255, 0.4),  /* Resplandor más extendido */
+        0 0 60px rgba(255, 255, 255, 0.4);  /* Luz difusa amplia */
+}
+
+
+.image-container {
+    width: 80%; /* Ajusta el tamaño de la imagen o contenido */
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    border: 1px solid #333333;
+    border-radius: 20px;
+    background-color: #333333;
+    padding: 2px 10px 2px 10px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 12px;
+}
+
+a:hover {
+    color: #eeeeee;
+    box-shadow: 0 5px 15px rgba(119, 119, 119, 0.5); /* Agrega sombra */
+    transform: translateY(-2px);
+
+}
