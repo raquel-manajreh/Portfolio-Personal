@@ -1,102 +1,117 @@
+.welcome-project{
+  justify-items: center;
+  margin-top: 318px;
+  margin-bottom: 518px;
+}
+.myName{
+  font-size: 18px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  justify-self: flex-start;
+  margin-left: 110px;
+}
+
+.h1{
+  font-size: 40px;
+  font-family:sans-serif;
+}
+
+h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:lighter;
+  font-style:oblique;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+
 /* Contenedor de los proyectos */
 .projects-container {
-    background-color: #f7f7f7a2;
-    display: flex;
-    flex-wrap: nowrap; /* No permite que los elementos se envuelvan a la siguiente línea */
-    justify-content: flex-start; /* Alinea los elementos a la izquierda */
-    gap: 30px; /* Espaciado entre los elementos */
-    position: absolute; /* Asegura que el contenedor esté en la parte inferior */
-    bottom: 20px; /* Espacio desde la parte inferior de la página */
-    width: 100vw; /* Asegura que ocupe todo el ancho de la página */
-    padding: 10px; /* Espacio interno para evitar que queden pegados a los bordes */
-    box-sizing: border-box; /* Incluye padding y bordes en el cálculo del tamaño */
-    overflow-x: auto; /* Permite desplazamiento horizontal si hay demasiados proyectos */
-    z-index: 10; /* Asegura que los smartphones estén por encima de otros elementos */
-  }
-  
-  /* Estructura del "smartphone" */
-  .smartphone {
-    width: 120px; /* Ancho del smartphone */
-    height: 210px; /* Alto del smartphone */
-    background: #000000; /* Cuerpo negro del teléfono */
-    border-radius: 20px; /* Bordes redondeados */
-    padding: 5px 5px 0px 5px;
-    position: relative; /* Para posicionar los elementos internos */
-    box-shadow: 
-      0 4px 6px rgba(0, 0, 0, 0.6),   
-      0 10px 20px rgba(0, 0, 0, 0.6),  
-      0 15px 30px rgba(0, 0, 0, 0.6);  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Alineación vertical */
-    margin-bottom: 20px; /* Separación entre smartphones */
-  }
-  
-  /* Barra superior del smartphone */
-  .smartphone::before {
-    content: ""; 
-    width: 60px; 
-    height: 10px; 
-    background: #3f3f3f;
-    border-radius: 20px;
-    position: absolute;
-    top: 4px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  /* Pantalla del smartphone */
-  .smartphone .screen {
-    width: 100%;
-    height: 98%; /* Altura relativa para dejar espacio para botones */
-    background: #ffffff; 
-    border-radius: 11px;
-    overflow: hidden; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 
-      0 0 15px rgba(255, 255, 255, 0.7),  
-      0 0 30px rgba(255, 255, 255, 0.4),  
-      0 0 60px rgba(255, 255, 255, 0.4);  
-  }
-  
-  /* Contenedor de la imagen y enlace */
-  .image-container {
-    width: 80%; /* Ajusta el tamaño de la imagen o contenido */
-    height: auto;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  /* Estilo del enlace dentro de la pantalla del smartphone */
-  .smartphone .screen a {
-    color: #bae9f0;
-    border: 1px solid #96e4f8;
-    border-radius: 20px;
-    background-color: #333333;
-    padding: 1.5px 18px 1.5px 18px;
-    text-decoration: none;
-    font-size: 10px;
-    transition: all 0.3s ease; 
-  }
-  
-  /* Efecto hover en el enlace */
-  .smartphone .screen a:hover {
-    color: #ffffff; 
-    background-color: #88c8db; 
-    box-shadow: 0 5px 15px rgba(43, 78, 88, 0.5); 
-    transform: translateY(-2px); 
-  }
-  
-  /* Estilo de la imagen del proyecto */
-  .project-image {
-    width: 100%; /* Ajusta el tamaño de la imagen */
-    height: auto;
-    max-width: 100px; /* Limita el tamaño máximo de la imagen */
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  
+  background-color: #f7f7f7a2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben */
+  justify-content: center;
+  gap: 100px; /* Espacio entre los elementos */
+  width: 100vw;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Estructura del "smartphone" */
+.smartphone {
+  width: 105px; /* Ancho del smartphone */
+  height: 195px; /* Alto del smartphone */
+  background: #000000;
+  border-radius: 16px;
+  padding: 5px 5px 0px 5px;
+  position: relative;
+  box-shadow: 
+    0 4px 6px rgba(155, 223, 255, 0.6),
+    0 10px 20px rgba(57, 111, 146, 0.6),
+    0 15px 30px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+/* Barra superior del smartphone */
+.smartphone::before {
+  content: ""; 
+  width: 60px; 
+  height: 10px; 
+  background: #3f3f3f;
+  border-radius: 20px;
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Pantalla del smartphone */
+.smartphone .screen {
+  width: 100%;
+  height: 98%;
+  background: #ffffff;
+  border-radius: 11px;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 
+    0 0 15px rgba(255, 255, 255, 0.7),
+    0 0 30px rgba(255, 255, 255, 0.4),
+    0 0 60px rgba(255, 255, 255, 0.4);
+}
+
+/* Estilo del enlace dentro de la pantalla del smartphone */
+.smartphone .screen a {
+  color: #bae9f0;
+  border: 1px solid #96e4f8;
+  border-radius: 20px;
+  background-color: #333333;
+  padding: 1.5px 18px 1.5px 18px;
+  text-decoration: none;
+  font-size: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Efecto hover en el enlace */
+.smartphone .screen a:hover {
+  color: #ffffff; 
+  background-color: #88c8db; 
+  box-shadow: 0 5px 15px rgba(43, 78, 88, 0.5); 
+  transform: translateY(-2px); 
+}
+
+/* Estilo de la imagen del proyecto */
+.project-image {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

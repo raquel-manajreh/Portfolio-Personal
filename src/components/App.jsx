@@ -12,22 +12,22 @@ function App() {
     {
       name: "First PokeApi",
       link: "https://github.com/raquel-manajreh/PRIMERA-POKEAPI",
-      image: "https://via.placeholder.com/120x210",
+      image: "#",
     },
     {
       name: "Prueba Slack CSS",
       link: "https://github.com/raquel-manajreh/SLACK-EJERCICIO1-bootcamp",
-      image: "https://via.placeholder.com/120x210", // URL temporal de imagen
+      image: "#", // URL temporal de imagen
     },
     {
       name: "React Menú Bootcamp",
       link: "https://github.com/IvanBorras/Proyecto_React",
-      image: "https://via.placeholder.com/120x210",
+      image: "#",
     },
     {
       name: "Festivales - Angular",
       link: "https://github.com/Irenemoralees/Festival_Proyecto_Final",
-      image: "https://via.placeholder.com/120x210", // URL temporal de imagen
+      image: "#", // URL temporal de imagen
     }
   ]; //ME FALTA EL LINK A LAS IMÁGENES
 
