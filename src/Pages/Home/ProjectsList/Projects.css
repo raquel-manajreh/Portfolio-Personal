@@ -68,20 +68,39 @@
     margin-bottom: 20px;
     text-align: center;
 }
-
+/* 
 a {
     border: 1px solid #333333;
     border-radius: 20px;
     background-color: #333333;
     padding: 2px 10px 2px 10px;
     text-decoration: none;
-    color: #eeeeee;
     font-size: 12px;
+    color: #ffffff;
 }
 
 a:hover {
-    color: #eeeeee;
+    color: #ffffff;
     box-shadow: 0 5px 15px rgba(119, 119, 119, 0.5); /* Agrega sombra */
-    transform: translateY(-2px);
+    /* transform: translateY(-2px);
+    transition: all 0.3s ease;
+} */ 
 
+
+.smartphone .screen a {
+    color: #bae9f0; /* Color inicial del enlace */
+    border: 1px solid #96e4f8; /* Borde del enlace */
+    border-radius: 20px;
+    background-color: #333333;
+    padding: 1.5px 18px 1.5px 18px;
+    text-decoration: none;
+    font-size: 10px;
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.smartphone .screen a:hover {
+    color: #ffffff; /* Color del texto al pasar el cursor */
+    background-color: #88c8db; /* Fondo del enlace al pasar el cursor */
+    box-shadow: 0 5px 15px rgba(43, 78, 88, 0.5); /* Sombra acorde al color */
+    transform: translateY(-2px); /* Efecto flotante */
 }
