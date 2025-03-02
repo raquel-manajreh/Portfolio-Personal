@@ -1,12 +1,21 @@
 import "../Home/Home.css";
+import Info from "./Info/Info";
 
 const Home = ({ projectsList }) => {
   return (
     <div className="homePage">
       <div className="welcome-project">
-       <p className="myName">Raquel M.</p>
+       
         <h1 className="h1">¡Bienvenido a mi mundo web!</h1>
         <h2>"Proyectos que hablan por mi"</h2>
+        <section>
+          <Info /> 
+
+
+          
+          {/* AQUÍ VA LA SECCIÓN DE MI CV LIGADO AL ARCHIVO JSON */}
+        </section>
+
       </div>
       <ul className="projects-container">
         {projectsList.map((project, index) => (

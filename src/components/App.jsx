@@ -27,7 +27,7 @@ function App() {
     {
       name: "Festivales - Angular",
       link: "https://github.com/Irenemoralees/Festival_Proyecto_Final",
-      image: "#", // URL temporal de imagen
+      image: "#",
     }
   ]; //ME FALTA EL LINK A LAS IMÁGENES
 
@@ -57,6 +57,3 @@ function App() {
 }
 
 export default App;
-
-// TENGO QUE ARREGLAR EL COMPONENTE PARA QUE CUANDO CLIKO CN HOME ME VAYA A HOME Y CUANDO ABOUT ME ME VAYA ALLÍ.
-// CREO QUE ES MEJOR CREAR UNA PAGINA DE HOME Y PARTIR DE AHÍ.
