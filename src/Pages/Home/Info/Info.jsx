@@ -5,7 +5,7 @@ import "./Info.css";
 function Info() {
   return (
     <div className="myInfo">
-    <img  alt="Me falta mi imagen" /> 
+    <img  alt="Mi imagen" /> 
     <div className="card">
     <h2 className="name">
         Raquel Manajreh Alaboud

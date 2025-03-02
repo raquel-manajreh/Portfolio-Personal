@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    transform: translate(-560px, -70px);
+    transform: translate(-580px, -70px);
     /* Ajusta el tamaño de la pantalla */
     height: 160px;
     background: linear-gradient(to bottom, #777777, #cbcbcb); 
@@ -32,14 +32,14 @@
   
   .name {
     color: #ffffff;
-    text-shadow: 0 0 10px rgba(240, 175, 54, 0.7), 0 0 2px rgba(0, 255, 255, 0.5); /* Efecto de texto iluminado */
+    text-shadow: 0 0 10px rgba(255, 197, 91, 0.7), 0 0 2px rgba(255, 255, 255, 0.5);
     font-size: 14px;
   }
   
   a {
-    color: #fff3e1; /* Color cian futurista */
+    color: rgb(102, 83, 57) !important;
     text-decoration: none;
-    text-shadow: 0 0 5px rgba(168, 117, 0, 0.8); /* Efecto de resplandor en el texto */
+    text-shadow: 0 0 5px rgba(227, 190, 105, 0.8); /* Efecto de resplandor en el texto */
   }
   a:hover{
     color:#ffffff;
