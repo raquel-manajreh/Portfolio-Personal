@@ -1,11 +1,12 @@
 // Esto está importado en la Home, y la Home en el App, para que se vea en la web.
 import "./Info.css";
+// import fotoPerfil from "../../../images/foto1-CV.png";
 
 
 function Info() {
   return (
     <div className="myInfo">
-    <img  alt="Mi imagen" /> 
+    {/* <img  alt="Mi imagen" src={fotoPerfil}/>  */}
     <div className="card">
     <h2 className="name">
         Raquel Manajreh Alaboud
