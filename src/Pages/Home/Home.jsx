@@ -1,6 +1,8 @@
 import "../Home/Home.css";
 import Info from "./Info/Info";
 import {cv} from "../../CV/cv";
+import Experience from "./Experience/Experience";
+import SkillsStack from "./SkillsStack/SkillsStack";
 // console.log(cv)
 
 const Home = ({ projectsList }) => {
@@ -13,15 +15,18 @@ const Home = ({ projectsList }) => {
        
         <h1 className="h1">¡Bienvenido a mi mundo web!</h1>
         <h2>"Proyectos que hablan por mi"</h2>
-        <section>
 
-        {/* COMPONENTES DENTRO DE LA HOME */}
-          <Info /> 
-
-
+      <div className="habilitiesDiv">
+          <section>
+            <Info />
+          </section>
           
-          {/* AQUÍ VA LA SECCIÓN DE MI CV LIGADO AL ARCHIVO JSON */}
-        </section>
+            <section>
+              <Experience data={experience}/>
+              <SkillsStack data={softSkills} />
+            </section>
+        </div>
+
 
       </div>
       <ul className="projects-container">

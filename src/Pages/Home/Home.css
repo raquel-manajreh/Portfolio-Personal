@@ -1,8 +1,15 @@
 .welcome-project{
   justify-items: center;
-  margin-top: 318px;
-  margin-bottom: 350px;
+  margin-top: 360px;
 }
+
+.habilitiesDiv {
+  display: flex; 
+  justify-content: space-between; /* Espacia los elementos */
+  align-items: flex-start; /* Alinea arriba si tienen alturas distintas */
+  gap: 20px; /* Espacio entre elementos */
+}
+
 .myName{
   font-size: 18px;
   font-family:'Courier New', Courier, monospace;
@@ -28,6 +35,7 @@
   width: 100vw;
   padding: 10px;
   box-sizing: border-box;
+  margin-top: 100px;
 }
 
 /* Estructura del "smartphone" */

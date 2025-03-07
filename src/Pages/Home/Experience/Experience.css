@@ -1,0 +1,26 @@
+.cardExperience{
+    margin-top: 20px;
+    width: 580px;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.892);
+    padding: 10px;
+    border-radius: 10px;
+    border: 6px solid rgba(0, 0, 0, 0.8); /* Borde brillante dentro de la pantalla */
+    line-height: 24px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.workstation{
+    font-weight: bolder;
+}
+
+.workdate {
+    display: inline-block; 
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1px 6px; 
+    box-sizing: border-box; 
+    text-align: center;
+}
