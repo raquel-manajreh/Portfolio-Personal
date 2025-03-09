@@ -5,9 +5,9 @@
 
 .habilitiesDiv {
   display: flex; 
-  justify-content: space-between; /* Espacia los elementos */
-  align-items: flex-start; /* Alinea arriba si tienen alturas distintas */
-  gap: 20px; /* Espacio entre elementos */
+  justify-content: center;
+  justify-content: space-between; 
+  align-items: flex-start; 
 }
 
 .myName{

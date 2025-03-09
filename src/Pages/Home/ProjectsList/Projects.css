@@ -1,0 +1,94 @@
+
+
+/* Contenedor de los proyectos */
+.projects-container {
+    background-color: #f7f7f7a2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben */
+    justify-content: center;
+    gap: 100px; /* Espacio entre los elementos */
+    width: 100vw;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 100px;
+  }
+  
+  /* Estructura del "smartphone" */
+  .smartphone {
+    width: 105px; /* Ancho del smartphone */
+    height: 195px; /* Alto del smartphone */
+    background: #000000;
+    border-radius: 16px;
+    padding: 5px 5px 0px 5px;
+    position: relative;
+    box-shadow: 
+      0 4px 6px rgba(155, 223, 255, 0.6),
+      0 10px 20px rgba(57, 111, 146, 0.6),
+      0 15px 30px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  /* Barra superior del smartphone */
+  .smartphone::before {
+    content: ""; 
+    width: 50px; 
+    height: 11px; 
+    background: #616161;
+    border-radius: 20px;
+    position: absolute;
+    top: 8px;
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+  
+  /* Pantalla del smartphone */
+  .smartphone .screen {
+    width: 100%;
+    height: 98%;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+      0 0 15px rgba(255, 255, 255, 0.7),
+      0 0 30px rgba(255, 255, 255, 0.4),
+      0 0 60px rgba(255, 255, 255, 0.4);
+  }
+  
+  /* Estilo del enlace dentro de la pantalla del smartphone */
+  .smartphone .screen a {
+    color: #bae9f0;
+    border: 1px solid #96e4f8;
+    border-radius: 20px;
+    background-color: #333333;
+    padding: 1.5px 18px 1.5px 18px;
+    text-decoration: none;
+    font-size: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Efecto hover en el enlace */
+  .smartphone .screen a:hover {
+    color: #ffffff; 
+    background-color: #88c8db; 
+    box-shadow: 0 5px 15px rgba(43, 78, 88, 0.5); 
+    transform: translateY(-2px); 
+  }
+  
+  /* Estilo de la imagen del proyecto */
+  .project-image {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
