@@ -5,6 +5,7 @@
 }
 
 .ulSkillsStack{
+    width: 150px;
     margin-top: 12px;
     list-style: none;
     line-height: 24px;

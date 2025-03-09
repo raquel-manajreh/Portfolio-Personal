@@ -1,6 +1,6 @@
 import "./SkillsStack.css";
 
-function SkillsStack({data}) {
+function SkillsStack({data, data2}) {
   return (
   <div className="computerCard">
 
@@ -16,7 +16,7 @@ function SkillsStack({data}) {
       <article>
         <h3 className="skillsStackName">STACK</h3>
         <ul className="ulSkillsStack">
-          {data.map((stack, i) =>(
+          {data2.map((stack, i) =>(
             <li key={i}>{stack}</li>
           ))}
         </ul>

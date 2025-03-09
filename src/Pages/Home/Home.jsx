@@ -32,7 +32,7 @@ const Home = ({ projectsList }) => {
             <button className="tittleButton" onClick={handleClick}>SOFTSKILLS / STACK</button>
             <button className="tittleButton" onClick={()=>{setSkills(false)}}>EXPERIENCIA</button>
 
-            {skills ? <SkillsStack data={softSkills} /> : <Experience data={experience}/> }
+            {skills ? <SkillsStack data={softSkills} data2={stack} /> : <Experience data={experience}/> }
 
               
               
