@@ -4,7 +4,6 @@ function Experience({data}) {
   return (
     <div>
         <div className=" computerCard">
-        <button className="tittleButton">EXPERIENCIA</button>
             {data.map((item, i)=><article key={i}>
                <p className="workstation">🛠️ {item.name}</p>
                <p className="workdate">🗓️ {item.date}</p>

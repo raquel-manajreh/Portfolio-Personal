@@ -2,8 +2,7 @@ import "./SkillsStack.css";
 
 function SkillsStack({data}) {
   return (
-  <div className=" computerCard">
-    <button className="tittleButton">SOFTSKILLS / STACK</button>
+  <div className="computerCard">
 
     <section className="skillsStacks">
       <article>

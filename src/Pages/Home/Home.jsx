@@ -3,18 +3,25 @@ import Info from "./Info/Info";
 import {cv} from "../../CV/cv";
 import Experience from "./Experience/Experience";
 import SkillsStack from "./SkillsStack/SkillsStack";
+import { useState } from "react";
 // console.log(cv)
 
 const Home = ({ projectsList }) => {
 
   const {person, education, experience, languajes, stack, softSkills} = cv;
 
+  const  [skills, setSkills] = useState(true); //Que por defecto se vea el componente "SkillsStack"
+
+  const handleClick = () => {
+    setSkills(true)
+  }
+
   return (
     <div className="homePage">
       <div className="welcome-project">
        
         <h1 className="h1">¡Bienvenido a mi mundo web!</h1>
-        <h2>"Proyectos que hablan por mi"</h2>
+        <h3 className="h3">"Proyectos que hablan por mi"</h3>
 
       <div className="habilitiesDiv">
           <section>
@@ -22,8 +29,13 @@ const Home = ({ projectsList }) => {
           </section>
           
             <section>
-              <Experience data={experience}/>
-              <SkillsStack data={softSkills} />
+            <button className="tittleButton" onClick={handleClick}>SOFTSKILLS / STACK</button>
+            <button className="tittleButton" onClick={()=>{setSkills(false)}}>EXPERIENCIA</button>
+
+            {skills ? <SkillsStack data={softSkills} /> : <Experience data={experience}/> }
+
+              
+              
             </section>
         </div>
 
