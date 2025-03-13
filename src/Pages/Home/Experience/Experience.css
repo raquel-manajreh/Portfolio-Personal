@@ -1,44 +1,32 @@
 .computerCard {
     width: 590px;
     height: 450px;
+    margin-top: -190px; /* MAS -  mas arriba*/
     box-sizing: border-box;
     text-align: center;
     line-height: 20px;
     align-content: center;
     position: relative;
-    left: -100px;
+    left: -150px;
     font-size: 14px;
     color: #000000;
     background: linear-gradient(to bottom, #777777, #cbcbcb);
-    border: 4px solid rgba(4, 59, 70, 0.6);
+    border: 6px solid rgba(4, 59, 70, 0.6);
     border-radius: 12px;
     box-shadow: 0 0 40px rgb(255, 255, 255);
 }
 
 .computerCard::before {
     content: "";
+    width: 579px; 
+    height: 6%;
+    background-image: url("/src/images/Status-Bar1.png");
+    background-size: 96% 88%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
     position: absolute;
-    top: 10%;
-    left: 5%;
-    width: 90%;
-    height: 40%;
-    background: rgba(255, 255, 255, 0.3);
-    filter: blur(15px);
-    border-radius: 50%;
-    opacity: 0.6;
-}
-
-.computerCard::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 15%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.544), transparent);
-    opacity: 0.8;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    top: 0px;
+    transform: translateX(-50%);
 }
 
 .workstation{

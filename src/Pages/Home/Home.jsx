@@ -23,20 +23,32 @@ const Home = ({ projectsList }) => {
         <h1 className="h1">¡Bienvenido a mi mundo web!</h1>
         <h3 className="h3">"Proyectos que hablan por mi"</h3>
 
-      <div className="habilitiesDiv">
+        <div className="habilitiesDiv">
+        {/* DIV que contiene las 3 SECCIONES en las que se divide la pagina:
+        - Info
+        Soft Skills
+        - Fotos del codigo o más info a determinar */}
+         
           <section>
+            {/* SECCION 1 - Info + Fotos de Linkedin + Github - Como smartphones */}
             <Info />
           </section>
           
-            <section>
-            <button className="tittleButton" onClick={handleClick}>SOFTSKILLS / STACK</button>
-            <button className="tittleButton" onClick={()=>{setSkills(false)}}>EXPERIENCIA</button>
 
-            {skills ? <SkillsStack data={softSkills} data2={stack} /> : <Experience data={experience}/> }
+          <section>
+          {/* SECCION 2 - Contenedor de las softSkills y la experiencia - como pantalla de ordenador */}
+            <div className="containerButtons">
+              <button className="tittleButton" onClick={handleClick}>SOFTSKILLS / STACK</button>
+              <button className="tittleButton" onClick={()=>{setSkills(false)}}>EXPERIENCIA</button>
+            </div>
 
-              
-              
-            </section>
+            {skills ? <SkillsStack data={softSkills} data2={stack} /> : <Experience data={experience}/> }  
+          </section>
+
+
+          <section>
+            {/* Seccion a poner todavia con codigo o mas informacion */}
+          </section>
         </div>
 
 

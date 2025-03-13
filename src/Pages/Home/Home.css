@@ -5,8 +5,9 @@
 
 .welcome-project{
   justify-items: center;
-  margin-top: 330px;
+  margin-top: 330px; /* MAS -  mas abajo*/
 }
+
 
 .habilitiesDiv {
   display: flex; 
@@ -52,19 +53,27 @@ text-shadow:
 }
 
 
+.containerButtons{
+  display: flex;
+  flex-direction: column; 
+  gap: 166px;
+}
 .tittleButton{
-  left: -98px;
-  width: 290px;
   background-color: #d6ba96;
   position: relative;
   z-index: 8px;
-  margin: 30px 1px 0px 1px;
+  top: 85px;
+  left: 475px;
+  width: 204px;
+  transform: rotate(90deg); 
+  transform-origin: top left;
+  
   padding: 6px 0px;
   background: linear-gradient(to bottom, #777777, #cbcbcb);
     border: 2px solid rgba(4, 59, 70, 0.6);
     border-bottom: none;
-    border-radius: 8px;
-    box-shadow: 0 0 40px rgb(255, 255, 255);
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 .tittleButton:hover{
   transition: font-size 0.1s ease;
@@ -78,9 +87,9 @@ text-shadow:
   background-color: #f7f7f7a2;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben */
+  flex-wrap: wrap; 
   justify-content: center;
-  gap: 100px; /* Espacio entre los elementos */
+  gap: 100px;
   width: 100vw;
   padding: 10px;
   box-sizing: border-box;
