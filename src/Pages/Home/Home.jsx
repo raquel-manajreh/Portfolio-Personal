@@ -20,7 +20,7 @@ const Home = ({ projectsList }) => {
     <div className="homePage">
       <div className="welcome-project">
        
-        <h1 className="h1">¡Bienvenido a mi mundo web!</h1>
+        <h1 className="h1">¡Bienvenido/a a mi mundo web!</h1>
         <h3 className="h3">"Proyectos que hablan por mi"</h3>
 
         <div className="habilitiesDiv">

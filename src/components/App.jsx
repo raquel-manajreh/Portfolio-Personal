@@ -4,10 +4,9 @@ import NavBar from "./NavBar/NavBar";
 import "./NavBar/NavBar.css";
 import AboutMe from "../Pages/AboutMe/AboutMe";
 import Home from "../Pages/Home/Home";
-
+import Contact from "../Pages/Contact/Contact";
 
 function App() {
-
   const projectsList = [
     {
       name: "First PokeApi",
@@ -17,7 +16,7 @@ function App() {
     {
       name: "Prueba Slack CSS",
       link: "https://github.com/raquel-manajreh/SLACK-EJERCICIO1-bootcamp",
-      image: "#", // URL temporal de imagen
+      image: "#",
     },
     {
       name: "React Menú Bootcamp",
@@ -29,28 +28,18 @@ function App() {
       link: "https://github.com/Irenemoralees/Festival_Proyecto_Final",
       image: "#",
     }
-  ]; //ME FALTA EL LINK A LAS IMÁGENES
+  ];
 
-  const [currentPage, setCurrentPage] = useState('home');
-
-  
-    const renderPage = () => {
-      if(currentPage === 'home'){
-        return <Home  projectsList={projectsList}/>;
-      } else if(currentPage === 'aboutMe'){
-        return <AboutMe />;
-      } else {
-        return <Home  projectsList={projectsList}/>;
-      }
-    };
+  const [currentPage, setCurrentPage] = useState("home");
 
   return (
     <div>
-      {/* <h1>Mi Portfolio</h1> */}
-      <NavBar  setCurrentPage={setCurrentPage}/>
-
+      <h1>Mi Portfolio</h1>
+      <NavBar setCurrentPage={setCurrentPage} />
       <main>
-        {renderPage()}
+        {currentPage === "aboutMe" ? <AboutMe /> : 
+         currentPage === "contact" ? <Contact /> :  
+         <Home projectsList={projectsList} />}
       </main>
     </div>
   );

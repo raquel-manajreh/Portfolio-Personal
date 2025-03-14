@@ -5,7 +5,7 @@
 
 .welcome-project{
   justify-items: center;
-  margin-top: 330px; /* MAS -  mas abajo*/
+  margin-top: 280px; /* MAS -  mas abajo*/
 }
 
 
@@ -62,7 +62,7 @@ text-shadow:
   background-color: #d6ba96;
   position: relative;
   z-index: 8px;
-  top: 85px;
+  top: 72px;
   left: 475px;
   width: 204px;
   transform: rotate(90deg); 
