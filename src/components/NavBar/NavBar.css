@@ -1,25 +1,28 @@
-/* EDITA SÓLO EL HEADER, que qudeda importado en el App.jsx para que funcionen los estilos */
+/* EDITA SÓLO EL NAVBAR, que qudeda importado en el App.jsx para que funcionen los estilos */
 
 *{
     margin: 0;
     padding: 0;
 }
 
+button:hover {
+    border: none;
+}
+
 .navBar {
     background-color: rgb(88, 96, 114);
-    /* border-radius: 60px; */
+    border: none;
     height: 60px;
-    position: fixed; /* Fija el elemento */
-    top: 0; /* Lo ubica en la parte superior de la ventana */
-    width: 100%; /* Asegura que ocupe todo el ancho */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
-    display: flex; /* Para organizar el contenido */
-    align-items: center; /* Alinea los elementos verticalmente */
-    padding: 0 20px; /* Agrega algo de espacio a los lados */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 20px;
 }
 
 .ulList{
-    /* border: 1px solid white; */
     font-size: 16px;
     color: white;
     list-style: none;
