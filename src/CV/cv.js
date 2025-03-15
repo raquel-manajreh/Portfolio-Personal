@@ -13,13 +13,13 @@ export const cv = {
           info: "🚀 Sobre mi: 👩🏻💻 ",
         },
         {
-          info: "Con experiencia en JavaScript, CSS, HTML5, React, Angular, MongoDB, y Node.js, mi viaje en el desarrollo web está siendo enriquecedor. Explorar mi creatividad y resolver problemas innovadores me acerca a mi meta de construir una carrera sólida en esta industria 🌐 Cada línea de código y diseño refleja mi pasión por aprender y aportar valor.",
+          info: "Con experiencia en JavaScript, CSS, HTML5, React, Angular, MongoDB y Node.js, sigo creciendo en el desarrollo web 🌐 Cada línea de código y diseño refleja mi pasión por aprender y aportar valor, mientras creo soluciones innovadoras que me acercan a mi meta en esta industria. 🚀",
         },
         {
           info: "🪶 Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo.",
         },
         {
-          info: "🦾 Estoy emocionada por conectar con profesionales apasionados y explorar nuevas oportunidades🤝🏼 Así como desarrollarme y crecer tanto personal como profesionalmente.",
+          info: "🦾 Emocionada por conectar con profesionales apasionados y explorar nuevas oportunidades🤝🏼, desarrollándome y creciendo personal y profesionalmente.",
         },
       ],
     },

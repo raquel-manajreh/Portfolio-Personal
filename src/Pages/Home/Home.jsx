@@ -31,11 +31,9 @@ const Home = ({ projectsList }) => {
         - Fotos del codigo o más info a determinar */}
          
           <section>
-            {/* SECCION 1 - Info + Fotos de Linkedin + Github - Como smartphones */}
+            {/* SECCION 1 - Info + AboutMe como tablet */}
             <Info />
-            <AboutMe />
-            {/* Tablet-1: about me*/}
-
+            <AboutMe data={person.aboutMe}/>
           </section>
           
 
@@ -51,9 +49,9 @@ const Home = ({ projectsList }) => {
 
 
           <section>
-            {/* Smartphone-1: codigo
-            Tablet2-2: Titulo/certificacion
-            Smartphone-3: Inspiraciones (Midudev, Moureodev, etc)*/}
+            {/*Tablet2-2: Titulo/certificacion
+              Smartphone-1: codigo
+              Smartphone-3: Inspiraciones (Midudev, Moureodev, etc)*/}
           </section>
         </div>
 

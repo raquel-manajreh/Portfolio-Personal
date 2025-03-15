@@ -3,7 +3,7 @@ import "./Experience.css";
 function Experience({data}) {
   return (
     <div>
-        <div className=" computerCard">
+        <div className="computerCard">
             {data.map((item, i)=><article key={i}>
                <p className="workstation">🛠️ {item.name}</p>
                <p className="workdate">🗓️ {item.date}</p>

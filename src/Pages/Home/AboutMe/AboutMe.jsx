@@ -1,9 +1,13 @@
+import "./AboutMe.css";
 
-function AboutMe() {
+function AboutMe({data}) {
   return (
     <div>
-      <h1>Sobre mi:</h1>
-      <p>Soy Raquel Manajreh Alaboud...</p>
+      <div className="tablet1">
+        {data.map((item, i)=>
+        <p className="aboutMeInfo" key={i}>{item.info}</p>)
+        }
+      </div>
     </div>
   );
 };

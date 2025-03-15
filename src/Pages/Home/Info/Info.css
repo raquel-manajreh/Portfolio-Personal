@@ -4,14 +4,17 @@
     align-items: center;
     justify-content: center;
     position: relative; 
-    left: -260px; 
+    left: -230px; 
     bottom: 80px;
     width: 220px;
     background: linear-gradient(to bottom, #777777, #cbcbcb);
     border: 4px solid rgba(4, 74, 88, 0.6);
     border-radius: 12px;
-    box-shadow: 14px 14px 14px 0 rgba(20, 20, 20, 0.3);
     padding: 16px;
+    box-shadow: 
+       inset 0px 0px 15px rgba(255, 255, 255, 0.919), 
+        inset 0px 0px 30px rgba(255, 255, 255, 0.736), 
+        14px 14px 14px 0 rgba(20, 20, 20, 0.3);
   }
     
   .card {

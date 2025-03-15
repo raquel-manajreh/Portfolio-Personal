@@ -7,16 +7,20 @@
     line-height: 20px;
     align-content: center;
     position: relative;
-    left: -150px;
-    font-size: 14px;
+    left: -200px;
+    font-size: 13px;
     color: #000000;
     background: linear-gradient(to bottom, #777777, #cbcbcb);
     border: 6px solid rgba(4, 59, 70, 0.6);
     border-radius: 12px;
-    box-shadow: 0 0 50px rgb(255, 255, 255);
+    padding: 0px 10px;
+    box-shadow: 
+    inset 0px 0px 15px rgba(255, 255, 255, 0.919), 
+        inset 0px 0px 30px rgba(255, 255, 255, 0.736),
+        0 0 50px rgb(255, 255, 255);
 }
 
-.computerCard::before {
+  .computerCard::before {
     content: "";
     width: 579px; 
     height: 6%;
@@ -25,9 +29,23 @@
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     position: absolute;
-    top: 0px;
+    top: 0;
     transform: translateX(-50%);
+    z-index: 10;
 }
+
+/* .computerCard::after {
+    content: "";
+    width: 130px; 
+    height: 16px; 
+    background: #616161;
+    border-radius: 20px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+} */
 
 .workstation{
     font-weight: bolder;
