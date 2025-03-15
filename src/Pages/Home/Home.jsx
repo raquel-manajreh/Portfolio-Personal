@@ -27,7 +27,7 @@ const Home = ({ projectsList }) => {
         <div className="habilitiesDiv">
         {/* DIV que contiene las 3 SECCIONES en las que se divide la pagina:
         - Info
-        Soft Skills
+        - Soft Skills
         - Fotos del codigo o más info a determinar */}
          
           <section>
@@ -38,7 +38,7 @@ const Home = ({ projectsList }) => {
           
 
           <section>
-          {/* SECCION 2 - Contenedor de las softSkills y la experiencia - como pantalla de ordenador */}
+          {/* SECCION 2 - Contenedor de las Soft Skills y la experiencia - como pantalla de ordenador */}
             <div className="containerButtons">
               <button className="tittleButton" onClick={handleClick}>SOFTSKILLS / STACK</button>
               <button className="tittleButton" onClick={()=>{setSkills(false)}}>EXPERIENCIA</button>
