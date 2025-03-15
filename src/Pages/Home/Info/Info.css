@@ -10,8 +10,6 @@
     background: linear-gradient(to bottom, #777777, #cbcbcb);
     border: 4px solid rgba(4, 74, 88, 0.6);
     border-radius: 12px;
-    box-shadow: 
-    0 0 40px rgb(255, 255, 255);
     box-shadow: 14px 14px 14px 0 rgba(20, 20, 20, 0.3);
     padding: 16px;
   }

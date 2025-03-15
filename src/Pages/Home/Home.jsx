@@ -4,6 +4,7 @@ import {cv} from "../../CV/cv";
 import Experience from "./Experience/Experience";
 import SkillsStack from "./SkillsStack/SkillsStack";
 import { useState } from "react";
+import AboutMe from "./AboutMe/AboutMe";
 // console.log(cv)
 
 const Home = ({ projectsList }) => {
@@ -32,6 +33,9 @@ const Home = ({ projectsList }) => {
           <section>
             {/* SECCION 1 - Info + Fotos de Linkedin + Github - Como smartphones */}
             <Info />
+            <AboutMe />
+            {/* Tablet-1: about me*/}
+
           </section>
           
 
@@ -47,7 +51,9 @@ const Home = ({ projectsList }) => {
 
 
           <section>
-            {/* Seccion a poner todavia con codigo o mas informacion */}
+            {/* Smartphone-1: codigo
+            Tablet2-2: Titulo/certificacion
+            Smartphone-3: Inspiraciones (Midudev, Moureodev, etc)*/}
           </section>
         </div>
 
