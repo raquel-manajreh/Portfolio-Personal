@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "../scss/App.css";
 import NavBar from "./NavBar/NavBar";
-import "./NavBar/NavBar.css";
 import Home from "../Pages/Home/Home";
 import Contact from "../Pages/Contact/Contact";
+import "../scss/App.css";
+
 
 function App() {
   const projectsList = [

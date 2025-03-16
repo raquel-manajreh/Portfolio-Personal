@@ -33,18 +33,17 @@ button:hover {
 
 .home{
     background: none;
-    margin: 0px 70px 0px 100px;
+    margin: 0px 460px 0px 100px;
     font-size: 18px;
-    /* background-color: rgb(87, 87, 87); */
-    text-shadow: 0px 0px 8px rgba(255, 255, 255, 1); /* Efecto de iluminación */
-    color: #ffffff; /* Color del texto */
-    /* font-size: 1rem;  Cambia el tamaño del texto */
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
+    color: #ffffff;
+ 
 }
 
 .aboutMe{
     background: none;
     color: #ffffff;
-    padding: 0px 70px 0px 430px;  /*Mover a partir de aqui a la derecha */
+    padding: 0px 70px 0px 80px;  /*Mover a partir de aqui a la derecha */
     margin-top: 10px;
 }
 
