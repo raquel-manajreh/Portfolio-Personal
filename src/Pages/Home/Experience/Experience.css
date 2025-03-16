@@ -1,13 +1,13 @@
 .computerCard {
-    width: 590px;
-    height: 450px;
-    margin-top: -200px; /* MAS -  mas arriba*/
+    width: 560px;
+    height: 420px;
+    margin-top: -170px; /* MAS -  mas arriba*/
     box-sizing: border-box;
     text-align: center;
     line-height: 20px;
     align-content: center;
     position: relative;
-    left: -200px;
+    left: -70px;
     font-size: 13px;
     color: #000000;
     background: linear-gradient(to bottom, #777777, #cbcbcb);
@@ -22,7 +22,7 @@
 
   .computerCard::before {
     content: "";
-    width: 579px; 
+    width: 549px; 
     height: 6%;
     background-image: url("/src/images/Status-Bar1.png");
     background-size: 96% 88%;
@@ -33,19 +33,6 @@
     transform: translateX(-50%);
     z-index: 10;
 }
-
-/* .computerCard::after {
-    content: "";
-    width: 130px; 
-    height: 16px; 
-    background: #616161;
-    border-radius: 20px;
-    position: absolute;
-    top: 8px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 20;
-} */
 
 .workstation{
     font-weight: bolder;

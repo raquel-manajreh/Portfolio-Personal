@@ -5,6 +5,7 @@ import Experience from "./Experience/Experience";
 import SkillsStack from "./SkillsStack/SkillsStack";
 import { useState } from "react";
 import AboutMe from "./AboutMe/AboutMe";
+import CodeComponent from "./CodeComponent/CodeComponent";
 // console.log(cv)
 
 const Home = ({ projectsList }) => {
@@ -24,21 +25,16 @@ const Home = ({ projectsList }) => {
         <h1 className="h1">¡Bienvenido/a a mi mundo web!</h1>
         <h3 className="h3">"Proyectos que hablan por mi"</h3>
 
-        <div className="habilitiesDiv">
-        {/* DIV que contiene las 3 SECCIONES en las que se divide la pagina:
-        - Info
-        - Soft Skills
-        - Fotos del codigo o más info a determinar */}
-         
+        <div className="habilitiesDiv">   {/* Componente con 3 SECCIONES */}
+
           <section>
             {/* SECCION 1 - Info + AboutMe como tablet */}
             <Info />
             <AboutMe data={person.aboutMe}/>
           </section>
           
-
           <section>
-          {/* SECCION 2 - Contenedor de las Soft Skills y la experiencia - como pantalla de ordenador */}
+          {/* SECCION 2 - Soft Skills y experiencia */}
             <div className="containerButtons">
               <button className="tittleButton" onClick={handleClick}>SOFTSKILLS / STACK</button>
               <button className="tittleButton" onClick={()=>{setSkills(false)}}>EXPERIENCIA</button>
@@ -47,11 +43,13 @@ const Home = ({ projectsList }) => {
             {skills ? <SkillsStack data={softSkills} data2={stack} /> : <Experience data={experience}/> }  
           </section>
 
-
           <section>
-            {/*Tablet2-2: Titulo/certificacion
-              Smartphone-1: codigo
+            {/*Tablet2-2: codigo
+              Smartphone-1: Titulo/certificacion
               Smartphone-3: Inspiraciones (Midudev, Moureodev, etc)*/}
+
+              <CodeComponent />
+
           </section>
         </div>
 

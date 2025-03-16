@@ -1,0 +1,32 @@
+
+.section3{
+    justify-items: center;
+    margin-right: -110px;
+}
+
+
+.tablet2{
+    width: 250px;
+}
+.tittleImage{
+    width: 112%;
+    margin-top: 28px;    /* object-fit: cover; */
+}
+
+
+
+.smartphoneCode{
+    width: 140px;
+    height: 260px;
+    box-shadow: 20px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.codeImage{
+    width: 100%;
+    height: 110%;
+    margin-bottom: 0px;
+}
+
+.divSmartphones{
+    display: flex;
+    gap: 60px;
+}

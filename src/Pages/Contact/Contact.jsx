@@ -13,18 +13,19 @@ function Contact() {
 
         <div className="divLabel">
             <label htmlFor="name">NOMBRE</label>
-            <input type="text" name="name" id="name"/>
+            <input className="input" type="text" name="name" id="name"/>
         </div>
 
         <div className="divLabel">
             <label htmlFor="email">E-MAIL</label>
-            <input type="text" name="email" id="email"/>
+            <input className="input" type="text" name="email" id="email"/>
         </div>
       
         <div className="divLabel">
         <label htmlFor="message">MENSAJE</label>
+        {/* <input className="messageInput" type="text" name="message" id="message"/> */}
+        <textarea className="messageInput input" id="message" name="message" rows="6.5" cols="20" placeholder="Escribe tu mensaje..."></textarea>
 
-        <input className="messageInput" type="text" name="message" id="message"/>
         </div>
             <button className="sendButton" >Enviar</button>
         </form>

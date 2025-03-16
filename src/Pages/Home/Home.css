@@ -5,7 +5,7 @@
 
 .welcome-project{
   justify-items: center;
-  margin-top: 280px; /* MAS -  mas abajo*/
+  margin-top: 320px; /* MAS -  mas abajo*/
 }
 
 
@@ -56,15 +56,15 @@ text-shadow:
 .containerButtons{
   display: flex;
   flex-direction: column; 
-  gap: 166px;
+  gap: 150px;
 }
 .tittleButton{
   background-color: #d6ba96;
   position: relative;
   z-index: 8px;
-  top: 72px;
-  left: 425px;
-  width: 204px;
+  top: 80px;
+  left: 525px;
+  width: 190px;
   transform: rotate(90deg); 
   transform-origin: top left;
   padding: 6px 0px;
@@ -97,15 +97,15 @@ text-shadow:
 
 /* Estructura del "smartphone" */
 .smartphone {
-  width: 105px; /* Ancho del smartphone */
-  height: 195px; /* Alto del smartphone */
+  width: 105px; 
+  height: 195px; 
   background: #000000;
   border-radius: 16px;
   padding: 5px 5px 0px 5px;
   position: relative;
   box-shadow: 
-  36px 24px 20px rgba(57, 111, 146, 0.6),
-  24px 16px 18px rgba(0, 0, 0, 0.916);
+  30px 16px 14px rgba(84, 107, 122, 0.6),
+  20px 10px 12px rgba(0, 0, 0, 0.916);
   display: flex;
   flex-direction: column;
   align-items: center;
