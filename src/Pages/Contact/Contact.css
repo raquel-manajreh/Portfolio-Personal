@@ -1,0 +1,94 @@
+h2{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-bottom: 30px;
+font-size: 30px;
+}
+
+.bodyContact{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-items: center;
+width: 100%;
+height: auto;
+justify-content: center;
+align-items: center;
+}
+ 
+.cardContact{
+width: 720px;
+height: auto;
+justify-items: center;
+background: linear-gradient(to bottom, #777777b6, #cbcbcb);
+border: 4px solid rgba(4, 74, 88, 0.6);
+border-radius: 12px;
+padding: 30px 30px;
+margin-bottom: -50px;
+box-shadow: inset 0px 0px 15px rgba(255, 255, 255, 0.919), 
+inset 0px 0px 30px rgba(255, 255, 255, 0.736), 
+14px 14px 14px 0 rgba(20, 20, 20, 0.3);
+display: flex;
+flex-direction: column;
+align-items: center;
+box-shadow: 
+inset 0px 0px 80px rgba(255, 255, 255, 0.919), 
+inset 0px 0px 30px rgba(255, 255, 255, 0.736), 
+      25px 30px 16px 0 rgba(20, 20, 20, 0.3);
+}
+
+.formContact{
+width: 100%;
+height: 440px;
+color: #ffffff;
+background-color: rgba(0, 0, 0, 0.301);
+padding: 8px;
+border-radius: 6px;
+border: 1px solid rgba(255, 209, 69, 0.884);
+display: flex;
+flex-direction: column;
+align-items: center; 
+justify-content: center;
+font-size: 16px;
+}
+
+.divLabel{
+display: flex;
+flex-direction: column;
+margin: 12px 0px;
+}
+
+label{
+font-size: 14px;
+}
+.messageInput{
+height: 100px;
+text-align: left;
+vertical-align: top;
+}
+
+input {  
+width: 100%;
+padding: 8px 20px;
+margin: 8px 0;
+border-radius: 6px;
+border: 1px solid rgba(255, 209, 69, 0.8);
+background-color: rgba(0, 0, 0, 0.3);
+color: #ffffff;
+}
+  
+.sendButton {
+padding: 10px 20px;
+margin-top: 20px;
+border: 1px solid rgba(255, 209, 69, 0.8);
+background-color: rgba(0, 0, 0, 0.442);
+color: white;
+font-size: 16px;
+border-radius: 6px;
+cursor: pointer;
+}
+  
+.sendButton:hover {
+background-color: #4580a0;
+}
+  

@@ -33,7 +33,6 @@ function App() {
 
   return (
     <div>
-      <h1>Mi Portfolio</h1>
       <NavBar setCurrentPage={setCurrentPage} />
       <main>
         { currentPage === "contact" ? <Contact /> :  
