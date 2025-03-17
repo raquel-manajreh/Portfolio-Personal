@@ -2,17 +2,17 @@
 .section3{
     justify-items: center;
     margin-right: -90px;
+    margin-top: -60px;
 }
-
 
 .tablet2{
     width: 250px;
+    margin-bottom: 60px;
 }
 .tittleImage{
     width: 112%;
     margin-top: 28px;    /* object-fit: cover; */
 }
-
 
 
 .smartphoneCode{
