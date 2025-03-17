@@ -23,7 +23,7 @@ button:hover {
 }
 
 .ulList{
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     list-style: none;
     font-family: inherit;
@@ -36,14 +36,13 @@ button:hover {
     margin: 0px 500px 0px 100px;
     font-size: 18px;
     text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
-    color: #ffffff;
- 
+    color: #ffffff; 
 }
 
 .aboutMe{
     background: none;
     color: #ffffff;
-    padding: 0px 70px 0px 80px;  /*Mover a partir de aqui a la derecha */
+    padding: 0px 80px 0px 80px;  /*Mover a partir de aqui a la derecha */
     margin-top: 10px;
 }
 

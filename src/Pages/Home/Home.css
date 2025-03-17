@@ -90,8 +90,9 @@ text-shadow:
   width: 100vw;
   padding: 20px;
   box-sizing: border-box;
-  margin-top: 18px;
-  border: 1px dashed #1e364e;
+  margin-top: 15px;
+  box-shadow: 0 0 20px 8px #222b34;
+
 }
 
 /* Estructura del "smartphone" */
