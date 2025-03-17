@@ -1,12 +1,9 @@
-// Esto está importado en la Home, y la Home en el App, para que se vea en la web.
 import "./Info.css";
-// import fotoPerfil from "../../../images/foto1-CV.png";
-
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Info() {
   return (
     <div className="myInfo">
-    {/* <img  alt="Mi imagen" src={fotoPerfil}/>  */}
     <div className="card">
     <h2 className="name">
         Raquel Manajreh Alaboud
@@ -15,10 +12,8 @@ function Info() {
         📧 raquel.fsdev@gmail.com
       </p>
       <p>📱+34 608076099</p>
-      <p>💾<a className="rrss" href="https://github.com/raquel-manajreh" target="_blank">
-        GitHub
-        </a></p>
-        <p>🖥️<a className="rrss" href="https://www.linkedin.com/in/raquel-manajreh-alaboud-396811321/" target="_blank">
+      <p><FaGithub className="icons" style={{ color: '#1A1A1A', fontSize: '20px' }} /><a className="rrss" href="https://github.com/raquel-manajreh" target="_blank">GitHub</a></p>
+        <p><FaLinkedin className="icons" style={{ color: '#1A1A1A', fontSize: '20px' }} /><a className="rrss" href="https://www.linkedin.com/in/raquel-manajreh-alaboud-396811321/" target="_blank">
         Linkedin
         </a></p>
     </div>

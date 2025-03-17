@@ -22,27 +22,27 @@
     font-size: 14px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 8px;
+    padding: 10px;
     border-radius: 6px;
     border: 1px solid rgba(255, 209, 69, 0.8);
-  }
-  
-  img {
-    width: 100px;
-    border-radius: 10px;
-    margin-bottom: 10px;
   }
   
   .name {
     color: #ffffff;
     text-shadow: 0 0 10px rgba(255, 197, 91, 0.7), 0 0 2px rgba(255, 255, 255, 0.5);
     font-size: 16px;
+    margin-bottom: 8px;
+  }
+  p{
+    margin: 6px;
   }
   
   a {
     color: rgb(255, 255, 255) !important;
     text-decoration: none;
-    text-shadow: 0 0 5px rgba(227, 190, 105, 0.8); 
+    text-shadow: 0 0 5px rgba(227, 190, 105, 0.8);
+    padding-left: 4px;
+    margin: 6px;
   }
   a:hover{
     color:#ffffff;
@@ -50,4 +50,7 @@
     font-size: 16px;
     text-shadow: 0 0 5px rgba(112, 244, 251, 0.8);
   }
-  
+
+  .icons{
+    margin-bottom: -4px;
+  }
