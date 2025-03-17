@@ -7,7 +7,6 @@ html, body{
 }
 
 body{
-  /* background-image: url('/src/images/escritorio-frio.png'); */
   background-image: url("../images/escritorio-frio.png");
   background-size: cover;
   background-repeat: no-repeat;

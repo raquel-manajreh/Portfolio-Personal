@@ -2,6 +2,7 @@ import { useState } from "react";
 import NavBar from "./NavBar/NavBar";
 import Home from "../Pages/Home/Home";
 import Contact from "../Pages/Contact/Contact";
+import AbMePage from "../Pages/AbMePage/AbMePage";
 import "../scss/App.css";
 
 
@@ -35,8 +36,7 @@ function App() {
     <div>
       <NavBar setCurrentPage={setCurrentPage} />
       <main>
-        { currentPage === "contact" ? <Contact /> :  
-         <Home projectsList={projectsList} />}
+        { currentPage === "contact" ? <Contact /> : currentPage === "aboutMe" ? <AbMePage /> : <Home projectsList={projectsList} />}
       </main>
     </div>
   );

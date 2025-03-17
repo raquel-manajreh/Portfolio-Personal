@@ -23,9 +23,8 @@ function Contact() {
       
         <div className="divLabel">
         <label htmlFor="message">MENSAJE</label>
-        {/* <input className="messageInput" type="text" name="message" id="message"/> */}
         <textarea className="messageInput input" id="message" name="message" rows="6.5" cols="20" placeholder="Escribe tu mensaje..."></textarea>
-
+        
         </div>
             <button className="sendButton" >Enviar</button>
         </form>

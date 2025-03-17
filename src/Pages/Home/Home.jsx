@@ -44,15 +44,9 @@ const Home = ({ projectsList }) => {
           </section>
 
           <section>
-            {/*Tablet2-2: codigo
-              Smartphone-1: Titulo/certificacion
-              Smartphone-3: Inspiraciones (Midudev, Moureodev, etc)*/}
-
               <CodeComponent />
-
           </section>
         </div>
-
 
       </div>
       <ul className="projects-container">

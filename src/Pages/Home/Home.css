@@ -1,13 +1,12 @@
 .homePage{
-  margin: 0;
-  padding: 0;
+margin:0;
+padding: 0;
 }
 
 .welcome-project{
   justify-items: center;
-  margin-top: 380px; /* MAS -  mas abajo*/
+  margin-top: 450px; /* MAS -  mas abajo*/
 }
-
 
 .habilitiesDiv {
   display: flex; 
@@ -52,7 +51,6 @@ text-shadow:
 0 0 50px #fff;
 }
 
-
 .containerButtons{
   display: flex;
   flex-direction: column; 
@@ -83,24 +81,25 @@ text-shadow:
 
 /* Contenedor de los proyectos */
 .projects-container {
-  background-color: #f7f7f7a2;
+  background: linear-gradient(to bottom, #222b34, #f0f0f0 );
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; 
   justify-content: center;
   gap: 100px;
   width: 100vw;
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
-  margin-top: 40px;
+  margin-top: 18px;
+  border: 1px dashed #1e364e;
 }
 
 /* Estructura del "smartphone" */
 .smartphone {
-  width: 105px; 
-  height: 195px; 
+  width: 135px; 
+  height: 260px; 
   background: #000000;
-  border-radius: 16px;
+  border-radius: 20px;
   padding: 5px 5px 0px 5px;
   position: relative;
   box-shadow: 
@@ -110,7 +109,7 @@ text-shadow:
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* Barra superior del smartphone */
@@ -131,7 +130,7 @@ text-shadow:
   width: 100%;
   height: 98%;
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 14px;
   overflow: hidden; 
   display: flex;
   flex-direction: column;
@@ -153,19 +152,11 @@ text-shadow:
   font-size: 10px;
   transition: all 0.3s ease;
 }
-
-/* Efecto hover en el enlace */
 .smartphone .screen a:hover {
   color: #ffffff; 
   background-color: #88c8db; 
   transform: translateY(-2px); 
 }
 
-/* Estilo de la imagen del proyecto */
-.project-image {
-  width: 100%;
-  height: auto;
-  max-width: 100px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
+
+
