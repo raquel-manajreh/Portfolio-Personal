@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState , useEffect } from "react";
 import NavBar from "./NavBar/NavBar";
 import Home from "../Pages/Home/Home";
 import Contact from "../Pages/Contact/Contact";
@@ -11,12 +11,12 @@ function App() {
     {
       name: "First PokeApi",
       link: "https://github.com/raquel-manajreh/PRIMERA-POKEAPI",
-      image: "#",
+      image: "/Pokeapi.jpg",
     },
     {
       name: "Prueba Slack CSS",
       link: "https://github.com/raquel-manajreh/SLACK-EJERCICIO1-bootcamp",
-      image: "#",
+      image: "/Slack.jpg",
     },
     {
       name: "React Menú Bootcamp",
@@ -31,12 +31,23 @@ function App() {
   ];
 
   const [currentPage, setCurrentPage] = useState("home");
+  const projectsRef = useRef(null);
+
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  }, [currentPage]);
 
   return (
     <div>
-      <NavBar setCurrentPage={setCurrentPage} />
+      <NavBar setCurrentPage={setCurrentPage} projectsRef={projectsRef} />
       <main>
-        { currentPage === "contact" ? <Contact /> : currentPage === "aboutMe" ? <AbMePage /> : <Home projectsList={projectsList} />}
+        { currentPage === "contact" ? ( 
+          <Contact /> 
+          ) : currentPage === "aboutMe" ? (
+            <AbMePage /> 
+          ) : (
+             <Home projectsList={projectsList}  projectsRef={projectsRef} /> 
+        )}
       </main>
     </div>
   );

@@ -8,7 +8,7 @@ import AboutMe from "./AboutMe/AboutMe";
 import CodeComponent from "./CodeComponent/CodeComponent";
 // console.log(cv)
 
-const Home = ({ projectsList }) => {
+const Home = ({ projectsList , projectsRef }) => {
 
   const {person, education, experience, languajes, stack, softSkills} = cv;
 
@@ -47,14 +47,14 @@ const Home = ({ projectsList }) => {
               <CodeComponent />
           </section>
         </div>
-
       </div>
-      <ul className="projects-container">
+
+      <ul className="projects-container" ref={projectsRef}>
         {projectsList.map((project, index) => (
           <li key={index} className="smartphone">
             <div className="screen">
               <h3 className="projectName">{project.name}</h3>
-              <img src={project.image} alt={project.name} className="project-image" />
+              <img src={project.image} alt={project.name} className="projectImage" />
               <a className="image-container" href={project.link} target="_blank" rel="noopener noreferrer">
                 Ver proyecto
               </a>

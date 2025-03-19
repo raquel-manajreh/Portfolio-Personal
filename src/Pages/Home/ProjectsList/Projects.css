@@ -82,13 +82,3 @@
     box-shadow: 0 5px 15px rgba(43, 78, 88, 0.5); 
     transform: translateY(-2px); 
   }
-  
-  /* Estilo de la imagen del proyecto */
-  .project-image {
-    width: 100%;
-    height: auto;
-    max-width: 100px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  
