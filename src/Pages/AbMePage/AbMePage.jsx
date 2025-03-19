@@ -35,12 +35,11 @@ function AbMePage() {
     </section>
 
     <section>
-      <img className="myPhoto" src="public\foto1-CV.png" alt="imagen-mia" />
+      <img className="myPhoto" src="foto1-CV.png" alt="Foto CV" />
     </section>
 
   </div>
-
-  )
-}
+  );
+};
 
 export default AbMePage;
