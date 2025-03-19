@@ -20,7 +20,7 @@ function CodeComponent() {
             </article>
             <article className="smartphone smartphoneCode">
               <div className="screen">
-                <span className="iconsSpan smartphoneIcons">
+                <span className="iconsSpan">
                   <h4>Herramientas</h4>
                   <p className="screenIcons"><FaHtml5 color="#E34F26" /></p>
                   <p className="screenIcons"><FaCss3 color="#1572B6" /></p>

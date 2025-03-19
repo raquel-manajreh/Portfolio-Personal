@@ -54,8 +54,8 @@ const Home = ({ projectsList , projectsRef }) => {
           <li key={index} className="smartphone">
             <div className="screen">
               <h3 className="projectName">{project.name}</h3>
-              <img src={project.image} alt={project.name} className="projectImage" />
-              <a className="image-container" href={project.link} target="_blank" rel="noopener noreferrer">
+              <img src={project.image} alt="" className="projectImage" />
+              <a className="projectLink" href={project.link} target="_blank" rel="noopener noreferrer">
                 Ver proyecto
               </a>
             </div>
