@@ -5,7 +5,7 @@ padding: 0;
 
 .welcome-project{
   justify-items: center;
-  margin-top: 450px; /* MAS -  mas abajo*/
+  margin-top: 430px; /* MAS -  mas abajo*/
 }
 
 .habilitiesDiv {
@@ -89,7 +89,7 @@ text-shadow:
   width: 100vw;
   padding: 20px;
   box-sizing: border-box;
-  margin-top: 15px;
+  margin-top: 30px;
   box-shadow: 0 0 20px 8px #222b34;
 
 }

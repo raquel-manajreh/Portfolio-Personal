@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    gap: 960px;
+    font-size: 10px;
+    height: 40px;
+    align-items: center;
+    /* background-color: rgba(51, 51, 51, 0.541); */
+    /* color:aliceblue; */
+    background: linear-gradient(to top, #777777, #f0f0f0);
+
+
+    position: absolute;
+    width: 100%;
+    bottom: -380px;
+    left: 0;
+}

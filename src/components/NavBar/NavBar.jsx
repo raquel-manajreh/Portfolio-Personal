@@ -23,9 +23,9 @@ function NavBar({setCurrentPage , projectsRef}) {
               <li><button onClick={handleClickToHome} className="home">HOME</button></li>
               <li><button 
               onClick={()=> setCurrentPage("aboutMe")} 
-              className="aboutMe">ABOUT ME</button></li>
-              <li><button onClick={()=> setCurrentPage("contact")} className="contact">CONTACT</button></li>
-              <li><button onClick={handleScrollToProjects} className="projects">PROJECTS</button></li>
+              className="aboutMe">SOBRE MI</button></li>
+              <li><button onClick={()=> setCurrentPage("contact")} className="contact">CONTACTO</button></li>
+              <li><button onClick={handleScrollToProjects} className="projects">PROYECTOS</button></li>
           </ul>
      </nav>
    </header> 

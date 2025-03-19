@@ -1,10 +1,10 @@
-import { useRef, useState , useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import NavBar from "./NavBar/NavBar";
 import Home from "../Pages/Home/Home";
 import Contact from "../Pages/Contact/Contact";
 import AbMePage from "../Pages/AbMePage/AbMePage";
+import Footer from "./Footer/Footer";
 import "../scss/App.css";
-
 
 function App() {
   const projectsList = [
@@ -27,13 +27,13 @@ function App() {
       name: "Festivales - Angular",
       link: "https://github.com/Irenemoralees/Festival_Proyecto_Final",
       image: "#",
-    }
+    },
   ];
 
   const [currentPage, setCurrentPage] = useState("home");
   const projectsRef = useRef(null);
 
-  useEffect(()=>{
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, [currentPage]);
 
@@ -41,14 +41,16 @@ function App() {
     <div>
       <NavBar setCurrentPage={setCurrentPage} projectsRef={projectsRef} />
       <main>
-        { currentPage === "contact" ? ( 
-          <Contact /> 
-          ) : currentPage === "aboutMe" ? (
-            <AbMePage /> 
-          ) : (
-             <Home projectsList={projectsList}  projectsRef={projectsRef} /> 
+        {currentPage === "contact" ? (
+          <Contact />
+        ) : currentPage === "aboutMe" ? (
+          <AbMePage />
+        ) : (
+          <Home projectsList={projectsList} projectsRef={projectsRef} />
         )}
       </main>
+      {/* Usamos currentPage para verificar si estamos en la home */}
+      {currentPage === "home" && <Footer />}
     </div>
   );
 }
