@@ -22,8 +22,10 @@ const Home = ({ projectsList , projectsRef }) => {
     <div className="homePage">
       <div className="welcome-project">
        
-        <h1 className="h1">¡Bienvenido/a a mi mundo web!</h1>
-        <h3 className="h3">"Proyectos que hablan por mi"</h3>
+        <div className="titles">
+          <h1 className="h1">¡Bienvenido/a a mi mundo web!</h1>
+          <h3 className="h3">"Proyectos que hablan por mi"</h3>
+        </div>
 
         <div className="habilitiesDiv">   {/* Componente con 3 SECCIONES */}
 

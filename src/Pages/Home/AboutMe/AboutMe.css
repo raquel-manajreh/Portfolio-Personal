@@ -67,3 +67,18 @@
     font-style: italic;
     color:darkred;
   }
+
+@media (max-width: 768px){
+  
+    .tablet1{
+        /* margin-top: 200px; */
+        top: 700px;
+        width: 360px;
+        height: 360px;
+        left: 7px; 
+    }
+    .tablet1::before {
+        width: 350px; 
+        background-size: 92% 80%;
+    }
+}

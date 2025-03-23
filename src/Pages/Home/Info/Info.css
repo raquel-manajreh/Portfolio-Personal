@@ -54,3 +54,24 @@
   .icons{
     margin-bottom: -4px;
   }
+
+  @media (max-width: 768px){
+
+    .myInfo{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300px;
+      padding: 20px 10px 20px 10px;
+    }
+    .card {
+      font-size: 18px;
+      padding: 10px;
+    }
+    .name{
+      font-size: 20px;
+    }
+
+
+
+}

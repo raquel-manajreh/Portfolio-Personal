@@ -34,7 +34,7 @@ function AbMePage() {
     </div>
     </section>
 
-    <section>
+    <section className="photosection">
     <img className="myPhoto" src="/Portfolio-Personal/foto1-CV.png" alt="Foto CV" />
     </section>
 

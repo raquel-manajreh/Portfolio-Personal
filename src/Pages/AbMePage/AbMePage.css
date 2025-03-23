@@ -1,60 +1,108 @@
 .divAbMe{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
 }
+
 .about-me {
-    padding: 30px 30px 0px 30px;
-    border-radius: 20px;
-    margin-left: 150px;
-    max-width: 640px;
-    height: 500px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
+  padding: 30px 30px 0px 30px;
+  border-radius: 20px;
+  margin-left: 150px;
+  max-width: 640px;
+  height: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-title {
+  font-size: 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.skills-title {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #333;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.skills-list li {
+  background-color: #d1b796;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #2d2d2d;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.myPhoto {
+  width: 400px;
+  height: auto;
+  background: rgba(136, 118, 82, 0.478);
+  border-radius: 12px;
+  box-shadow: 0 0 20px 8px rgba(136, 118, 82, 0.478);
+}
+
+@media (max-width: 768px) {
   
+  .divAbMe {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-me {
+      width: 280px;
+      height: 660px;
+      margin-left: 0px;
+      margin-top: 430px;
+  }
+
   .about-title {
-    font-size: 36px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    margin-bottom: 20px;
+      font-size: 30px;
+      margin-top: -30px;
   }
-  
+
   .about-content p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #444;
+      font-size: 16px;
+      padding: 0px;
+      margin: 0px;
   }
-  
+
   .skills-title {
-    font-size: 22px;
-    margin-top: 25px;
-    color: #333;
+    font-size: 16px;
+    margin-top: 12px;
   }
   
   .skills-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
     gap: 12px;
     margin-top: 16px;
+    justify-content: center;
   }
-  
-  .skills-list li {
-    background-color: #d1b796;
-    padding: 6px 12px;
-    border-radius: 12px;
-    font-size: 16px;
-    color: #2d2d2d;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  .photosection{
+    background-color: rgb(88, 96, 114);
+    width: 100%;
   }
-  .myPhoto{
-    width: 400px;
-    height: auto;
-    /* background: rgba(91, 73, 43, 0.616); */
-    background: rgba(136, 118, 82, 0.478);
-    border-radius: 12px;
-    box-shadow: 0 0 20px 8px rgba(136, 118, 82, 0.478);
+  .myPhoto {
+  width: 380px;
+  height: auto;
+  margin-top: -50px;
   }
-  
+
+}

@@ -56,6 +56,7 @@ text-shadow:
   flex-direction: column; 
   gap: 150px;
 }
+
 .tittleButton{
   background-color: #d6ba96;
   position: relative;
@@ -175,3 +176,63 @@ text-shadow:
 
 
 
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 768px){
+
+.homePage{
+  display: flex;
+  flex-direction: column;
+}
+
+  .welcome-project{
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px; 
+    /* MAS -  mas abajo*/
+  }
+
+  .h1 {
+  margin-top: 900px;   
+  font-size: 30px;
+  }
+
+  .h3 {
+    font-size: 22px;
+  }
+
+  .projects-container{
+    display: flex;
+    flex-direction:column;
+    top: 1050px;
+    position: relative;
+    z-index: 80;
+    align-items: center;
+  }
+
+
+  .containerButtons{
+    display: flex;
+    flex-direction: row; 
+  }
+  
+  .tittleButton{
+    position: relative;
+    z-index: 8px;
+    top: 80px;
+    left: 0;
+    width: 200px;
+    transform: rotate(0deg); 
+    transform-origin: top left;
+    padding: 6px 0px;
+    background: linear-gradient(to bottom, #777777, #cbcbcb);
+    border: 2px solid rgba(4, 59, 70, 0.6);
+    border-bottom: none;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+
+
+
+}

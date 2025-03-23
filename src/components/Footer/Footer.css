@@ -14,3 +14,11 @@
     bottom: -380px;
     left: 0;
 }
+
+
+@media (max-width: 768px){
+    .footer{
+        position: fixed;
+        background: linear-gradient(to top, #f0f0f0, #777777, #f0f0f0);
+    }
+}

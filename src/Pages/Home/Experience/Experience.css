@@ -45,8 +45,28 @@
     padding: 1px 6px; 
     box-sizing: border-box; 
     text-align: center;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 .job{
     margin: 0px;
 }
+
+
+@media (max-width: 768px){
+    .computerCard {
+      width: 90%;
+      height: auto;
+      left: -172px;
+      transform: translateX(-50%);
+      top: 1270px;
+      padding: 10px;
+      position: relative;
+      z-index: 20;
+    }
+  
+    .computerCard::before {
+      width: 100%;
+      background-size: cover;
+      background-size: 96% 88%;
+    }
+  }
