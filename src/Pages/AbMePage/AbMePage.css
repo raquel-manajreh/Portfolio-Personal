@@ -1,17 +1,25 @@
-.divAbMe{
+body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+}
+.divAbMe {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 60px;
 }
 
 .about-me {
   padding: 30px 30px 0px 30px;
   border-radius: 20px;
-  margin-left: 150px;
-  max-width: 640px;
+  margin-left: 0;
+  margin-right: 0;
   height: 500px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .about-title {
@@ -48,61 +56,74 @@
   border-radius: 12px;
   font-size: 16px;
   color: #2d2d2d;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.photosection{
+  justify-content: center;
+  align-items: center ;
+}
 .myPhoto {
   width: 400px;
   height: auto;
-  background: rgba(136, 118, 82, 0.478);
+  background: rgba(136, 118, 82, 0.558);
   border-radius: 12px;
-  box-shadow: 0 0 20px 8px rgba(136, 118, 82, 0.478);
+  box-shadow: 0 0 20px 8px rgba(136, 118, 82, 0.648);
 }
 
+/* ---------------- MOBILE STYLES (Responsive) ---------------- */
+
 @media (max-width: 768px) {
-  
   .divAbMe {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    padding:0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 0px;
   }
 
   .about-me {
-      width: 280px;
-      height: 660px;
-      margin-left: 0px;
-      margin-top: 430px;
+    width: 78%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 60px;
+    padding: 20px;
   }
 
   .about-title {
-      font-size: 30px;
-      margin-top: -30px;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 16px;
   }
 
   .about-content p {
-      font-size: 16px;
-      padding: 0px;
-      margin: 0px;
+    font-size: 16px;
+    margin-bottom: 12px;
   }
 
   .skills-title {
-    font-size: 16px;
-    margin-top: 12px;
-  }
-  
-  .skills-list {
-    gap: 12px;
+    font-size: 18px;
     margin-top: 16px;
-    justify-content: center;
-  }
-  .photosection{
-    background-color: rgb(88, 96, 114);
-    width: 100%;
-  }
-  .myPhoto {
-  width: 380px;
-  height: auto;
-  margin-top: -50px;
   }
 
+  .skills-list {
+    justify-content: center;
+  }
+
+  .photosection {
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .myPhoto {
+    width: 92%;
+    max-width: 380px;
+    margin: 10px auto 0 auto;
+    background: rgba(136, 118, 82, 0.700);
+    box-shadow: 0 0 20px 8px rgba(136, 118, 82, 0.807);
+  }
 }
