@@ -1,6 +1,6 @@
 .section3{
     justify-items: center;
-    margin-right: 0px;
+    margin-right: -40px;
     margin-top: -60px;
 }
 
@@ -50,3 +50,13 @@
     gap: 10px;
 }
 
+@media (max-width: 768px){
+
+.section3{
+    justify-items: center;
+    margin-right: 0px;
+    margin-top: -60px;
+    }
+
+
+}
