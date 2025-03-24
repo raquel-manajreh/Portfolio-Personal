@@ -1,31 +1,37 @@
-.homePage{
-margin:0;
-padding: 0;
+/* Versión Desktop */
+.homePage {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.welcome-project{
+.welcome-project {
   justify-items: center;
-  margin-top: 100px; /* MAS -  mas abajo*/
+  margin-top: 100px;
+  width: 100%;
 }
 
 .habilitiesDiv {
-  display: flex; 
+  display: flex;
   justify-content: center;
-  justify-content: space-between; 
-  align-items: flex-start; 
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-items: center;
 }
 
-.myName{
+.myName {
   font-size: 18px;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
   justify-self: flex-start;
   margin-left: 110px;
 }
 
-.h1{
+.h1 {
   font-size: 45px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-shadow: 
     0 0 5px #fff,
     0 0 10px #fff,
@@ -35,105 +41,97 @@ padding: 0;
     0 0 40px #fff,
     0 0 50px #fff;
 }
-.h3{
-text-align: center;  
-font-size: 26px;
-font-style: italic;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-letter-spacing: 1px;
-margin-top: 6px;
-text-shadow: 
-0 0 5px #fff,
-0 0 10px #fff,
-0 0 15px #fff, 
-0 0 20px #fff,
-0 0 30px #fff,
-0 0 40px #fff,
-0 0 50px #fff;
+
+.h3 {
+  text-align: center;
+  font-size: 26px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  margin-top: 6px;
+  text-shadow: 
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff, 
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #fff,
+    0 0 50px #fff;
 }
 
-.containerButtons{
+
+.containerButtons {
   display: flex;
-  flex-direction: column; 
-  gap: 150px;
+  transform: rotate(90deg);
+  position: relative;
+  top: 330px;
+  left: 236px;
 }
 
-.tittleButton{
+.tittleButton {
   background-color: #d6ba96;
   position: relative;
-  z-index: 8px;
-  top: 80px;
-  left: 525px;
   width: 200px;
-  transform: rotate(90deg); 
-  transform-origin: top left;
-  padding: 6px 0px;
+  padding: 6px 0;
   background: linear-gradient(to bottom, #777777, #cbcbcb);
   border: 2px solid rgba(4, 59, 70, 0.6);
-  border-bottom: none;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+  border-radius: 5px;
 }
-.tittleButton:hover{
+
+
+.tittleButton:hover {
   transition: font-size 0.1s ease;
   font-size: 17px;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
-  
 
-/* Contenedor de los proyectos */
 .projects-container {
-  background: linear-gradient(to bottom, #222b34, #f0f0f0 );
+  background: linear-gradient(to bottom, #222b34, #f0f0f0);
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 100px;
-  width: 100vw;
+  gap: 50px;
   padding: 20px;
   box-sizing: border-box;
+  width: 100%;
   margin-top: 30px;
   box-shadow: 0 0 20px 8px #222b34;
-
 }
 
-/* Estructura del "smartphone" */
 .smartphone {
-  width: 135px; 
-  height: 260px; 
-  background: #000000;
+  width: 135px;
+  height: 260px;
+  background: #010f1d;
   border-radius: 20px;
-  padding: 5px 5px 0px 5px;
+  padding: 5px 5px 0.5px 5px;
   position: relative;
   box-shadow: 
-  30px 16px 14px rgba(84, 107, 122, 0.6),
-  20px 10px 12px rgba(0, 0, 0, 0.916);
+    30px 16px 14px rgba(84, 107, 122, 0.6),
+    20px 10px 12px rgba(0, 0, 0, 0.916);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
 }
 
-/* Barra superior del smartphone */
 .smartphone::before {
   content: ""; 
   width: 50px; 
-  height: 11px; 
+  height: 12px; 
   background: #616161;
   border-radius: 20px;
   position: absolute;
   top: 10px;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%);
 }
 
-/* Pantalla del smartphone */
 .smartphone .screen {
   width: 100%;
   height: 98%;
   background: linear-gradient(to bottom, #e8c16b, #ffffff, #e8c16b);
-
   border-radius: 14px;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,96 +142,98 @@ text-shadow:
     0 0 60px rgba(255, 255, 255, 0.4);
 }
 
-/* Estilo del enlace dentro de la pantalla del smartphone */
 .smartphone .screen a {
   color: #bae9f0;
   border-radius: 20px;
   background-color: #666666;
   border: 1px solid  #d8a014;
-  padding: 1.5px 18px 1.5px 18px;
+  padding: 1.5px 18px;
   text-decoration: none;
   font-size: 10px;
   transition: all 0.3s ease;
 }
+
 .smartphone .screen a:hover {
   color: #ffffff; 
   background-color: #88c8db; 
   transform: translateY(-2px); 
 }
-.projectImage{
+
+.projectImage {
   width: 180px;
   height: auto;
   padding: 16px 10px;
 }
-.projectName{
+
+.projectName {
   margin-top: -70px;
   text-align: center;
 }
-.projectLink{
+
+.projectLink {
   margin-bottom: -90px;
   height: 20px;
   align-content: center;
 }
 
+/* Versión móvil (tamaño máximo 768px) */
+@media (max-width: 768px) {
+  .homePage {
+    padding: 20px;
+    align-items: flex-start;
+  }
 
-
-
-/* Pantallas pequeñas (móviles) */
-@media (max-width: 768px){
-
-.homePage{
-  display: flex;
-  flex-direction: column;
-}
-
-  .welcome-project{
-    display: flex;
-    flex-direction: column;
-    margin-top: 400px; 
-    /* MAS -  mas abajo*/
+  .welcome-project {
+    margin-top: 20px;
   }
 
   .h1 {
-  margin-top: 900px;   
-  font-size: 30px;
+    font-size: 30px;
+    margin-top: 20px;
   }
 
   .h3 {
     font-size: 22px;
+    text-align: center;
   }
 
-  .projects-container{
-    display: flex;
-    flex-direction:column;
-    top: 1050px;
-    position: relative;
-    z-index: 80;
+  .habilitiesDiv {
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
+    width: 100%;
   }
 
-
-  .containerButtons{
-    display: flex;
-    flex-direction: row; 
-  }
-  
-  .tittleButton{
-    position: relative;
-    z-index: 8px;
-    top: 80px;
-    left: 0;
-    width: 200px;
-    transform: rotate(0deg); 
-    transform-origin: top left;
-    padding: 6px 0px;
-    background: linear-gradient(to bottom, #777777, #cbcbcb);
-    border: 2px solid rgba(4, 59, 70, 0.6);
-    border-bottom: none;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+  .containerButtons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transform: rotate(0deg);
+    top: 0px;
+    left: 0px;
   }
 
+  .tittleButton {
+    transform: rotate(0deg);
+    width: 100%;
+    padding: 8px 0;
+  }
 
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
 
+  .smartphone {
+    width: 90%;
+    margin-bottom: 20px;
+  }
 
+  .projectImage {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
 }

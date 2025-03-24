@@ -1,13 +1,13 @@
 .computerCard {
     width: 560px;
     height: 450px;
-    margin-top: -180px; /* MAS -  mas arriba*/
     box-sizing: border-box;
     text-align: center;
     line-height: 20px;
+    /* display: flex; */
     align-content: center;
     position: relative;
-    left: -70px;
+    left: -60px;
     font-size: 13px;
     color: #000000;
     background: linear-gradient(to bottom, #777777, #cbcbcb);

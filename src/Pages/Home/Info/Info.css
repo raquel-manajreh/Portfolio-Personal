@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     position: relative; 
-    left: -60px; 
     bottom: 100px;
     width: 220px;
     background: linear-gradient(to bottom, #777777, #cbcbcb);
