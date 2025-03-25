@@ -17,7 +17,8 @@ align-items: center;
 }
  
 .cardContact{
-width: 720px;
+/* width: 720px; */
+width: 46%;
 height: auto;
 justify-items: center;
 background: linear-gradient(to bottom, #777777b6, #cbcbcb);
@@ -93,7 +94,8 @@ background-color: #4580a0;
 
 @media (max-width: 768px){
       .cardContact{
-        width: 300px;
+        /* width: 300px; */
+        width: 80%;
         height: auto;
         margin-bottom: 0px;
         padding: 30px 26px;
