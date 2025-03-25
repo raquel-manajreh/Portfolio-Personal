@@ -75,21 +75,23 @@ body{
 
 @media (max-width: 768px) {
   .divAbMe {
-    padding:0;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
     margin: 0 auto;
-    gap: 0px;
+    width: 90%;
+    padding: 0;
+    gap:0;
   }
 
   .about-me {
-    width: 78%;
+    width: 80%;
     height: auto;
     margin-left: 0;
     margin-top: 60px;
     padding: 20px;
+    text-align: center;
   }
 
   .about-title {
@@ -109,7 +111,7 @@ body{
   }
 
   .skills-list {
-    justify-content: center;
+    justify-content: center; 
   }
 
   .photosection {
@@ -117,12 +119,14 @@ body{
     padding: 16px 0;
     display: flex;
     justify-content: center;
+    align-items: center; 
   }
 
   .myPhoto {
+    display: block; 
     width: 92%;
     max-width: 380px;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 0 auto; 
     background: rgba(136, 118, 82, 0.700);
     box-shadow: 0 0 20px 8px rgba(136, 118, 82, 0.807);
   }
