@@ -1,147 +1,102 @@
-h2{
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-margin-bottom: 30px;
-font-size: 30px;
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 30px;
+  font-size: 30px;
 }
 
-.bodyContact{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-justify-items: center;
-width: 100%;
-height: auto;
-justify-content: center;
-align-items: center;
-}
- 
-.cardContact{
-/* width: 720px; */
-width: 46%;
-height: auto;
-justify-items: center;
-background: linear-gradient(to bottom, #777777b6, #cbcbcb);
-border: 4px solid rgba(4, 74, 88, 0.6);
-border-radius: 12px;
-padding: 30px 30px;
-margin-bottom: -50px;
-box-shadow: inset 0px 0px 15px rgba(255, 255, 255, 0.919), 
-inset 0px 0px 30px rgba(255, 255, 255, 0.736), 
-14px 14px 14px 0 rgba(20, 20, 20, 0.3);
-display: flex;
-flex-direction: column;
-align-items: center;
-box-shadow: 
-inset 0px 0px 80px rgba(255, 255, 255, 0.919), 
-inset 0px 0px 30px rgba(255, 255, 255, 0.736), 
-      25px 30px 16px 0 rgba(20, 20, 20, 0.3);
+.bodyContact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-items: center;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
-.formContact{
-width: 100%;
-height: 440px;
-color: #ffffff;
-background-color: rgba(0, 0, 0, 0.301);
-padding: 8px;
-border-radius: 6px;
-border: 1px solid rgba(255, 209, 69, 0.884);
-display: flex;
-flex-direction: column;
-align-items: center; 
-justify-content: center;
-font-size: 16px;
+.cardContact {
+  width: 80%;
+  height: auto;
+  margin-bottom: 0px;
+  padding: 30px 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #777777b6, #cbcbcb);
+  border: 4px solid rgba(4, 74, 88, 0.6);
+  border-radius: 12px;
+  box-shadow: inset 0px 0px 80px rgba(255, 255, 255, 0.919), 
+              inset 0px 0px 30px rgba(255, 255, 255, 0.736), 
+              25px 30px 16px 0 rgba(20, 20, 20, 0.3);
 }
 
-.divLabel{
-display: flex;
-flex-direction: column;
-margin: 12px 0px;
+.formContact {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 100%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.301);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 209, 69, 0.884);
+  font-size: 16px;
 }
 
-
-.messageInput{
-text-align: left;
-vertical-align: top;
+.divLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 0px;
+  width: 100%;
 }
 
-.input {  
-width: 100%;
-padding: 8px 20px;
-margin: 8px 0;
-border-radius: 6px;
-border: 1px solid rgba(255, 209, 69, 0.8);
-background-color: rgba(0, 0, 0, 0.3);
-color: #ffffff;
+label {
+  font-size: 14px;
+  display: block; 
+  text-align: center;
 }
-  
+
+.input, .messageInput {
+  width: 80%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 209, 69, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
 .sendButton {
-padding: 10px 20px;
-margin-top: 20px;
-border: 1px solid rgba(255, 209, 69, 0.8);
-background-color: rgba(0, 0, 0, 0.442);
-color: white;
-font-size: 16px;
-border-radius: 6px;
-cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 40%;
+  height: 50px;
+  border: 1px solid rgba(255, 209, 69, 0.8);
+  background-color: rgba(0, 0, 0, 0.442);
+  color: white;
+  border-radius: 6px;
 }
-  
+
 .sendButton:hover {
-background-color: #4580a0;
+  background-color: #4580a0;
 }
-  
 
-
-@media (max-width: 768px){
-      .cardContact{
-        /* width: 300px; */
-        width: 80%;
-        height: auto;
-        margin-bottom: 0px;
-        padding: 30px 26px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-    
-      .formContact{
-        padding: 8px;
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-        justify-content: center;
-        width: 100%;
-      }
-    
-      .divLabel{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 12px 0px;
-        width: 100%;
-      }
-    
-      label{
-        font-size: 14px;
-        display: block; 
-        text-align: center;
-      }
-    
-      .input, .messageInput {
-        width: 80%;
-        padding: 8px 20px;
-        margin: 8px 0;
-        border-radius: 6px;
-      }
-    
-      .sendButton {
-        padding: 10px 20px;
-        margin-top: 20px;
-        font-size: 16px;
-        cursor: pointer;
-        width: 40%;
-        height: 50px;
-      }
-    }
-    
+@media (min-width: 769px) {
+  .cardContact {
+    width: 46%;
+    padding: 30px 30px;
+  }
+  .input, .messageInput {
+    width: 80%;
+  }
+  .sendButton {
+    width: auto;
+  }
+}
