@@ -13,6 +13,7 @@
     transition: transform 0.4s ease;
     transform: scale(1.5);
 }
+
 .tittleImage{
     width: 112%;
     margin-top: 28px;
@@ -50,13 +51,23 @@
     gap: 10px;
 }
 
+.expanded {
+    transform: scale(1.5);
+}
+
 @media (max-width: 768px){
 
 .section3{
+    width: 100%;
     justify-items: center;
-    margin-right: 0px;
-    margin-top: -60px;
+    margin-top: 360px
     }
-
-
+    .divSmartphones{
+        display: flex;
+        gap: 26px;
+    }
+    .screenIcons{
+        font-size: 20px;
+    }
+    
 }

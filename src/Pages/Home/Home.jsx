@@ -50,7 +50,7 @@ const Home = ({ projectsList , projectsRef }) => {
           </section>
         </div>
       </div>
-
+      <h5 className="misProyectos">MIS PROYECTOS</h5>
       <ul className="projects-container" ref={projectsRef}>
         {projectsList.map((project, index) => (
           <li key={index} className="smartphone">

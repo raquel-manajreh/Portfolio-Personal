@@ -94,7 +94,7 @@ label {
     padding: 30px 30px;
   }
   .input, .messageInput {
-    width: 80%;
+    width: 60%;
   }
   .sendButton {
     width: auto;

@@ -55,17 +55,26 @@
     .computerCard {
       width: 90%;
       height: auto;
-      left: -172px;
+      left: 50%;
       transform: translateX(-50%);
-      top: 1270px;
-      padding: 10px;
       position: relative;
       z-index: 20;
+      top: 240px;
     }
   
     .computerCard::before {
       width: 100%;
+      height: 3.6%;
       background-size: cover;
       background-size: 96% 88%;
+    }
+
+    .workstation{
+      font-weight: bolder;
+      margin-top: 20px;
+    }
+    .workdate{
+      margin-top: 0px;
+
     }
   }
