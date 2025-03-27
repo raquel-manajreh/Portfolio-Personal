@@ -77,9 +77,9 @@ body{
 @media (max-width: 768px) {
 
   .divAbMe {
-    background-image: url("../../../public/dark-purple.JPG");
+    /* background-image: url("../../../public/dark-purple.JPG"); */
 
-    /* background-image: url("../../../public/back1.JPG"); */
+    background-image: url("../../../public/back1.JPG");
 
     
 
