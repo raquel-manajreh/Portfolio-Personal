@@ -79,6 +79,11 @@ body{
   .divAbMe {
     background-image: url("../../../public/dark-purple.JPG");
 
+    /* background-image: url("../../../public/back1.JPG"); */
+
+    
+
+
    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +92,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     padding: 0;
     margin: 0 auto;
     gap: 0px;
