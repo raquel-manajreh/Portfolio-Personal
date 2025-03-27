@@ -40,7 +40,7 @@ function App() {
   return (
     <div>
       <NavBar setCurrentPage={setCurrentPage} projectsRef={projectsRef} />
-      <main>
+      <main className="main">
         {currentPage === "contact" ? (
           <Contact />
         ) : currentPage === "aboutMe" ? (

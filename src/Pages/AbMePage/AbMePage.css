@@ -75,8 +75,14 @@ body{
 
 
 @media (max-width: 768px) {
- 
+
   .divAbMe {
+    background-image: url("../../../public/dark-purple.JPG");
+
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
     flex-direction: column;
     align-items: center;

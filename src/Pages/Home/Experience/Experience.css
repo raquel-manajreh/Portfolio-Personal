@@ -59,7 +59,7 @@
       transform: translateX(-50%);
       position: relative;
       z-index: 20;
-      top: 240px;
+      top: 200px;
     }
   
     .computerCard::before {
