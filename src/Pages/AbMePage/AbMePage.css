@@ -19,6 +19,7 @@ body{
   margin-left: 0;
   margin-right: 0;
   height: 500px;
+  width: 50%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -27,6 +28,7 @@ body{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   margin-bottom: 20px;
+  color: aliceblue;
 }
 
 .about-content p {
@@ -71,23 +73,16 @@ body{
   box-shadow: 0 0 20px 8px rgba(136, 118, 82, 0.648);
 }
 
-/* ---------------- MOBILE STYLES (Responsive) ---------------- */
+/* ---------------- MOBILE RESPONSIVE ---------------- */
 
 
 @media (max-width: 768px) {
 
   .divAbMe {
-    /* background-image: url("../../../public/dark-purple.JPG"); */
-
-    background-image: url("../../../public/back1.JPG");
-
-    
-
-
-   background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+  background-image: url("../../../public/back1.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,12 +94,16 @@ body{
   }
 
   .about-me {
+    color: aliceblue;
     width: 80%;
     height: auto;
     margin-left: 0;
     margin-top: 60px;
     padding: 20px;
     text-align: center;
+  
+  border: 3px solid #cc00ff;
+  filter: drop-shadow(0 0 6px #cc00ff) drop-shadow(0 0 6px #cc00ff);
   }
 
   .about-title {
@@ -114,11 +113,13 @@ body{
   }
 
   .about-content p {
+    color: aliceblue;
     font-size: 16px;
     margin-bottom: 12px;
   }
 
   .skills-title {
+    color: aliceblue;
     font-size: 18px;
     margin-top: 16px;
   }
@@ -140,7 +141,8 @@ body{
     width: 92%;
     max-width: 380px;
     margin: 10px auto 0 auto; 
-    background: rgba(136, 118, 82, 0.700);
-    box-shadow: 0 0 20px 8px rgba(136, 118, 82, 0.807);
+    background-color: rgba(255, 255, 255, 0.412);
+    border: 3px solid #cc00ff;
+    filter: drop-shadow(0 0 6px #1c3469) drop-shadow(0 0 6px #cc00ff);
   }
 }

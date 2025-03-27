@@ -9,8 +9,8 @@
   }
   
   .navBar {
-    background-color: rgb(88, 96, 114);
-    height: 45px; 
+    background-color: #1f335e;
+    height: 6%; 
     position: fixed;
     top: 0;
     left: 0;
@@ -27,39 +27,43 @@
     transition: max-height 0.5s ease-out;
     flex-direction: column;
     position: absolute;
-    top: 45px;
+    top: 100%;
     left: 0;
     width: 100%;
-    /* background-color: rgba(124, 135, 160, 0.737); */
-    background-color: rgba(171, 136, 94, 0.693);
+    background-color: #162545a4;
   }
   
   .ulList.open {
-    max-height: 500px; /* Ajusta según cuánto mida tu menú abierto */
+    max-height: 500px; /* Cuánto mida el menú abierto */
   }
   
    .aboutMe, .projects, .contact {
     padding: 10px 20px; 
     font-size: 16px; 
-    margin: 6px 6px; 
+    margin: 8px 6px; 
     text-align: center;
-    background-color: rgba(126, 160, 160, 0.952);
+    background-color: #a200ff;
     color: #ffffff;
+    border: 2px solid #e480fd;
+    filter: drop-shadow(0 0 4px #cc00ff) drop-shadow(0 0 3px #cc00ff);
   }
   .home{
     font-size: 16px; 
-    margin: 6px 6px; 
+    margin: 8px 6px; 
     text-align: center;
-    background-color: rgba(178, 226, 226, 0.556);
+    background-color: #a200ff;
     color: #ffffff;
+    border: 2px solid #a99dfd;
+    filter: drop-shadow(0 0 4px #211955) drop-shadow(0 0 3px #6f59ff);
   }
 
   .hamburguer {
     display: block; 
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     color: white;
     margin: 6px 0px 0px 8px;
+    filter: drop-shadow(0 0 2px #2447a8) drop-shadow(0 0 3px #9fb9ff);
   }
   
   /* Estilos para pantallas de ordenador y dispositivos grandes */
@@ -69,6 +73,7 @@
       padding: 0 20px;
       height: 60px;
       position: fixed;
+      background-color: rgb(88, 96, 114);
     }
   
     .ulList {
@@ -91,6 +96,8 @@
       text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
       color: #ffffff;
       background: none;
+      border: none;
+      filter: none;
     }
   
     .aboutMe, .projects, .contact {
@@ -98,6 +105,7 @@
       margin-top: 10px;
       background: none;
       border: none;
+      filter: none;
     }
   
     .skills {

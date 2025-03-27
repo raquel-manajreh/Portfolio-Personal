@@ -53,9 +53,8 @@ function Contact() {
   };
 
   return (
-    <>
     <div className="bodyContact">
-      <h2>CONTACTO</h2>
+      <h2 className="h2-contact">CONTACTO</h2>
 
       <section  className="cardContact">
 
@@ -80,7 +79,6 @@ function Contact() {
         </form>
       </section>
     </div>
-   </>
   )
 }
 

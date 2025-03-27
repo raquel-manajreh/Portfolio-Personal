@@ -10,7 +10,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   justify-items: center;
-  width: 100%;
+  width: 60%;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@ h2 {
   flex-direction: column;
   align-items: center; 
   justify-content: center;
-  width: 100%;
+  width: 90%;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.301);
   border-radius: 6px;
@@ -62,7 +62,7 @@ label {
 }
 
 .input, .messageInput {
-  width: 80%;
+  width: 60%;
   padding: 8px 20px;
   margin: 8px 0;
   border-radius: 6px;
@@ -76,7 +76,7 @@ label {
   margin-top: 20px;
   font-size: 16px;
   cursor: pointer;
-  width: 40%;
+  width:26%;
   height: 50px;
   border: 1px solid rgba(255, 209, 69, 0.8);
   background-color: rgba(0, 0, 0, 0.442);
@@ -88,15 +88,57 @@ label {
   background-color: #4580a0;
 }
 
-@media (min-width: 769px) {
+@media (max-width: 768px) {
+
+  .bodyContact {
+    background-image: url("../../../public/back1.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .h2-contact{
+    color: aliceblue;
+    padding: 6px;
+    background: #0b152ca5;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 16px 10px #080f20a5;
+    border-radius: 10px;
+  }
+
   .cardContact {
-    width: 46%;
+    width: 76%;
     padding: 30px 30px;
+    border: 3px solid #cc00ff;
+    filter: drop-shadow(0 0 6px #cc00ff) drop-shadow(0 0 6px #cc00ff);
+  }
+
+/* 1c3469 */
+
+  .formContact{
+    width: 100%;
+    border: 3px solid #1c3469;
+    filter: drop-shadow(0 0 6px #0448dc) drop-shadow(0 0 6px #0b152ca5);
   }
   .input, .messageInput {
     width: 60%;
+    border: 3px solid #aa00ff;
+    filter: drop-shadow(0 0 2px #aa00ff36) drop-shadow(0 0 2px #aa00ff44);
   }
   .sendButton {
     width: auto;
+    border: 1px solid #f6e5ff;
+    filter: drop-shadow(0 0 2px #d582ff36) drop-shadow(0 0 2px #aa00ff44)
   }
 }
