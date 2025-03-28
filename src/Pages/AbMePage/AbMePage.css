@@ -76,7 +76,7 @@ body{
 /* ---------------- MOBILE RESPONSIVE ---------------- */
 
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 
   .divAbMe {
   /* background-image: url("../../../public/back1.JPG"); */
@@ -104,7 +104,7 @@ body{
     text-align: center;
     background: #5f8f98;
   border: 2px solid #46daff;
-  filter: drop-shadow(0 0 6px #3c96a8) drop-shadow(0 0 12px #39cbef);
+  filter: drop-shadow(0 0 10px #46b1c6) drop-shadow(0 0 12px #4edcff);
   }
 
   .about-title {

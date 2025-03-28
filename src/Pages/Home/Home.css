@@ -131,7 +131,7 @@
 .smartphone .screen {
   width: 100%;
   height: 98%;
-  background: linear-gradient(to bottom, #e8c16b, #ffffff, #e8c16b);
+  background: linear-gradient(to bottom, #57818e, #ffffff, #57818e);
   border-radius: 14px;
   overflow: hidden;
   display: flex;
@@ -157,14 +157,16 @@
 
 .smartphone .screen a:hover {
   color: #ffffff; 
-  background-color: #88c8db; 
-  transform: translateY(-2px); 
+  background-color: #608c99; 
+  transform: translateY(-4px); 
 }
 
 .projectImage {
-  width: 180px;
+  display: block;
+  width: 98%;
   height: auto;
   padding: 16px 10px;
+  border-radius: 20px;
 }
 
 .projectName {
@@ -179,7 +181,7 @@
 }
 
 /* Versión móvil (tamaño máximo 768px) */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .homePage {
     background-image: url("../../../public/blue2.jpg");
     background-size: 100%;
@@ -203,7 +205,7 @@
   }
 
   .h3 {
-    color: #0a4c92;
+    color: #053870;
     font-size: 22px;
     text-align: center;
     padding: 0px 30px;
@@ -270,9 +272,10 @@
   }
 
   .projectImage {
-    width: 100%;
+    width: 96%;
     height: auto;
     padding: 10px 0;
+    border-radius: 16px;
   }
   .smartphone .screen {
     width: 100%;
@@ -280,5 +283,5 @@
     background: linear-gradient(to bottom, #6589bc, #ffffff, #659cbc);
   
   }
-  
 }
+

@@ -11,12 +11,12 @@ function App() {
     {
       name: "First PokeApi",
       link: "https://github.com/raquel-manajreh/PRIMERA-POKEAPI",
-      image: "/Pokeapi.jpg",
+      image: "public/Pokeapi.jpg",
     },
     {
       name: "Prueba Slack CSS",
       link: "https://github.com/raquel-manajreh/SLACK-EJERCICIO1-bootcamp",
-      image: "/Slack.jpg",
+      image: "public/Slack.jpg",
     },
     {
       name: "React Menú Bootcamp",

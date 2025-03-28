@@ -62,7 +62,7 @@
       transform: translateX(-50%);
       width: 80%;
       border: 2px solid #5fbffb;
-      filter: drop-shadow(0 0 2px #3c96a8) drop-shadow(0 0 3px #39cbef);
+      filter: drop-shadow(0 0 10px #5dcae0) drop-shadow(0 0 10px #3dd8ff);
     }
     .card {
       border: 1px solid #5fbffb;

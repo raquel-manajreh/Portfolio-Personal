@@ -88,7 +88,7 @@ label {
   background-color: #4580a0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 
   .bodyContact {
     background-image: url("../../../public/blue2.jpg");
@@ -120,21 +120,19 @@ label {
   .cardContact {
     width: 76%;
     padding: 30px 30px;
-    border: 2px solid #66e0ff;
-    filter: drop-shadow(0 0 6px #3c96a8) drop-shadow(0 0 10px #39cbef);
+    border: 2px solid #46daff;
+    filter: drop-shadow(0 0 10px #46b1c6) drop-shadow(0 0 12px #4edcff);
   }
-
-/* 1c3469 */
 
   .formContact{
     width: 100%;
     border: 2px solid #2660ff36;
-    filter: drop-shadow(0 0 3px #0d214fd9) drop-shadow(0 0 3px #02297d);
+    filter: drop-shadow(0 0 3px #01579edc) drop-shadow(0 0 3px #0969b8);
   }
   .input, .messageInput {
     width: 60%;
-    border: 1px solid #8dd3ff;
-    filter: drop-shadow(0 0 2px #0091ff36) drop-shadow(0 0 2px #3ca9fc36);
+    border: 1px solid #adecfc;
+    filter: drop-shadow(0 0 6px #46b1c6) drop-shadow(0 0 8px #4edcff);
   }
   .sendButton {
     width: auto;
