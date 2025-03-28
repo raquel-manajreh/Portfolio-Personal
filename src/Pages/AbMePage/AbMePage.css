@@ -79,7 +79,8 @@ body{
 @media (max-width: 1024px) {
 
   .divAbMe {
-  background-image: url("../../../public/back1.JPG");
+  /* background-image: url("../../../public/back1.JPG"); */
+  background-image: url("../../../public/blue3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,9 +102,9 @@ body{
     margin-top: 60px;
     padding: 20px;
     text-align: center;
-  
-  border: 3px solid #cc00ff;
-  filter: drop-shadow(0 0 6px #cc00ff) drop-shadow(0 0 6px #cc00ff);
+    background: #5f8f98;
+  border: 2px solid #46daff;
+  filter: drop-shadow(0 0 6px #3c96a8) drop-shadow(0 0 12px #39cbef);
   }
 
   .about-title {
@@ -142,7 +143,7 @@ body{
     max-width: 380px;
     margin: 10px auto 0 auto; 
     background-color: rgba(255, 255, 255, 0.412);
-    border: 3px solid #cc00ff;
-    filter: drop-shadow(0 0 6px #1c3469) drop-shadow(0 0 6px #cc00ff);
+    border: 3px solid #46daff;
+    filter: drop-shadow(0 0 6px #274b97) drop-shadow(0 0 6px #3c96a8);
   }
 }

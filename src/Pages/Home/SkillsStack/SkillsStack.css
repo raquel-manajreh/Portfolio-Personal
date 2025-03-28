@@ -23,8 +23,8 @@
 
 @media (max-width: 768px){
     .ulSkillsStack{
-        border: 1px solid #a4d3ff;
-        filter: drop-shadow(0 0 3px #003662) drop-shadow(0 0 2px #4477cd);
+        border: 1px solid #b0d8fe;
+        filter: drop-shadow(0 0 3px #002a4d) drop-shadow(0 0 2px #4d86e9);
     }
     .skillsStacks{
         display: flex;

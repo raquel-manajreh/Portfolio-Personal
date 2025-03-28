@@ -9,7 +9,7 @@
   }
   
   .navBar {
-    background-color: #09255d;
+    background-color: #003a74;
     height: 6%; 
     position: fixed;
     top: 0;
@@ -30,7 +30,8 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #162545a4;
+    background-color: #003a74a0;
+
   }
   
   .ulList.open {
@@ -42,19 +43,19 @@
     font-size: 16px; 
     margin: 8px 6px; 
     text-align: center;
-    background-color: #a200ff;
+    background-color: #589ea5;
     color: #ffffff;
-    border: 2px solid #e480fd;
-    filter: drop-shadow(0 0 4px #cc00ff) drop-shadow(0 0 3px #cc00ff);
+    border: 2px solid #90d1ff;
+    filter: drop-shadow(0 0 4px #48a6b0) drop-shadow(0 0 3px #67f0ff);
   }
   .home{
     font-size: 16px; 
     margin: 8px 6px; 
     text-align: center;
-    background-color: #a200ff;
+    background-color: #a2d2d6;
     color: #ffffff;
-    border: 2px solid #a99dfd;
-    filter: drop-shadow(0 0 4px #211955) drop-shadow(0 0 3px #6f59ff);
+    border: 2px solid #bce3ff;
+    filter: drop-shadow(0 0 4px #48a6b0) drop-shadow(0 0 3px #67f0ff);
   }
 
   .hamburguer {

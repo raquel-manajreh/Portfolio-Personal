@@ -181,8 +181,8 @@
 /* Versión móvil (tamaño máximo 768px) */
 @media (max-width: 1024px) {
   .homePage {
-
-    background-image: url("../../../public/back1.JPG");
+    background-image: url("../../../public/blue2.jpg");
+    background-size: 100%;
     background-repeat:repeat-y;
     display: flex;
     padding: 20px;
@@ -195,7 +195,7 @@
   }
 
   .h1 {
-    color:#1530a7;
+    color:#125aa6;
     font-size: 40px;
     text-align: center;
     padding: 0px 30px;
@@ -203,7 +203,7 @@
   }
 
   .h3 {
-    color: #1530a7;
+    color: #0a4c92;
     font-size: 22px;
     text-align: center;
     padding: 0px 30px;
@@ -227,7 +227,7 @@
     left: 5%;
     width: 90%;
     position: absolute;
-    filter: drop-shadow(0 0 6px #cc00ff) drop-shadow(0 0 6px #cc00ff);
+    filter: drop-shadow(0 0 6px #3c96a8) drop-shadow(0 0 6px #d7f7ff);
   }
 
   .tittleButton {
@@ -237,7 +237,7 @@
     padding: 16px 10px;
     border-radius: 80px;
     border: 2px #e1bdff;
-    background: #c279fe;
+    background: #9fcfdb;
   }
 
   .misProyectos{

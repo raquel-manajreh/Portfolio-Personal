@@ -91,7 +91,7 @@ label {
 @media (max-width: 1024px) {
 
   .bodyContact {
-    background-image: url("../../../public/back1.JPG");
+    background-image: url("../../../public/blue2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,25 +120,25 @@ label {
   .cardContact {
     width: 76%;
     padding: 30px 30px;
-    border: 3px solid #cc00ff;
-    filter: drop-shadow(0 0 6px #cc00ff) drop-shadow(0 0 6px #cc00ff);
+    border: 2px solid #66e0ff;
+    filter: drop-shadow(0 0 6px #3c96a8) drop-shadow(0 0 10px #39cbef);
   }
 
 /* 1c3469 */
 
   .formContact{
     width: 100%;
-    border: 3px solid #3f005f36;
-    filter: drop-shadow(0 0 3px #0448dc) drop-shadow(0 0 3px #0b152ca5);
+    border: 2px solid #2660ff36;
+    filter: drop-shadow(0 0 3px #0d214fd9) drop-shadow(0 0 3px #02297d);
   }
   .input, .messageInput {
     width: 60%;
-    border: 1px solid #c552ff;
-    filter: drop-shadow(0 0 2px #aa00ff36) drop-shadow(0 0 2px #aa00ff44);
+    border: 1px solid #8dd3ff;
+    filter: drop-shadow(0 0 2px #0091ff36) drop-shadow(0 0 2px #3ca9fc36);
   }
   .sendButton {
     width: auto;
     border: 1px solid #f6e5ff;
-    filter: drop-shadow(0 0 2px #d582ff36) drop-shadow(0 0 2px #aa00ff44)
+    filter: drop-shadow(0 0 2px #4d86aa) drop-shadow(0 0 2px #8dd3ff)
   }
 }

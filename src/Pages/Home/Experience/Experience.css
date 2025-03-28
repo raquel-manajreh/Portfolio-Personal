@@ -60,8 +60,8 @@
       position: relative;
       z-index: 20;
       top: 220px;
-      border: 2px solid #0d6ec8;
-      filter: drop-shadow(0 0 3px #003662) drop-shadow(0 0 2px #4477cd);
+      border: 2px solid #6cb8ff;
+      filter: drop-shadow(0 0 3px #003662) drop-shadow(0 0 2px #3b6ec6);
       background: #7b9fb9;
     }
   
