@@ -102,9 +102,9 @@ body{
     margin-top: 60px;
     padding: 20px;
     text-align: center;
-    background: #5f8f98;
-  border: 2px solid #46daff;
-  filter: drop-shadow(0 0 10px #46b1c6) drop-shadow(0 0 12px #4edcff);
+    background: #071c1f31;
+    border: 2px solid #46daff;
+    filter: drop-shadow(0 0 10px #46b1c6) drop-shadow(0 0 12px #4edcff);
   }
 
   .about-title {
@@ -142,8 +142,8 @@ body{
     width: 92%;
     max-width: 380px;
     margin: 10px auto 0 auto; 
-    background-color: rgba(255, 255, 255, 0.412);
-    border: 3px solid #46daff;
+    background-color: rgba(21, 36, 43, 0.316);
+    border: 2px solid #46daff;
     filter: drop-shadow(0 0 6px #274b97) drop-shadow(0 0 6px #3c96a8);
   }
 }
