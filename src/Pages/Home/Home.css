@@ -179,7 +179,7 @@
 }
 
 /* Versión móvil (tamaño máximo 768px) */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .homePage {
 
     background-image: url("../../../public/back1.JPG");

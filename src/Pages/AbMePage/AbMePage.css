@@ -76,7 +76,7 @@ body{
 /* ---------------- MOBILE RESPONSIVE ---------------- */
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
   .divAbMe {
   background-image: url("../../../public/back1.JPG");
