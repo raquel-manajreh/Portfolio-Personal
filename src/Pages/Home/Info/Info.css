@@ -61,8 +61,12 @@
       left: 50%;
       transform: translateX(-50%);
       width: 80%;
+      border: 2px solid #cc00ff;
+      filter: drop-shadow(0 0 2px #740291) drop-shadow(0 0 3px #9e00c6);
     }
     .card {
+      border: 1px solid #a058ff;
+      filter: drop-shadow(0 0 2px #4c0291) drop-shadow(0 0 3px #6d00c674);
       font-size: 18px;
       padding: 20px;
     }

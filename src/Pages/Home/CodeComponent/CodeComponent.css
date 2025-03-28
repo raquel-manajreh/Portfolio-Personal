@@ -60,11 +60,16 @@
 .section3{
     width: 100%;
     justify-items: center;
-    margin-top: 330px
+    margin-top: 330px;
+    }
+    .tablet2{
+        border: 2px solid #e88bff;
+        filter: drop-shadow(0 0 6px #cc00ff) drop-shadow(0 0 6px #cc00ff);
     }
     .divSmartphones{
         display: flex;
         gap: 26px;
+        filter: drop-shadow(0 0 3px #cc00ff) drop-shadow(0 0 3px #cc00ff);
     }
     .screenIcons{
         font-size: 20px;

@@ -71,13 +71,25 @@
 @media (max-width: 768px){
   
     .tablet1{
+        border: 2px solid #359dff;
+        filter: drop-shadow(0 0 4px #0069bf) drop-shadow(0 0 8px #4589ff);
         margin-top: 500px;
         width: 80%;
         height: 360px;
         left: 10%;
+        background: #82a9c7;
     }
     .tablet1::before {
         width: 100%;
         height: 5%;
     }
+    .aboutMeInfo{
+        padding: 4px 10px;
+        font-size: 13px;
+        margin-top: -6px;
+    }
+    .aboutMeInfo:nth-child(3) { 
+        font-size: 14px;
+        color:rgb(47, 0, 122);
+      }
 }

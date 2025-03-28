@@ -22,6 +22,10 @@
 }
 
 @media (max-width: 768px){
+    .ulSkillsStack{
+        border: 1px solid #a4d3ff;
+        filter: drop-shadow(0 0 3px #003662) drop-shadow(0 0 2px #4477cd);
+    }
     .skillsStacks{
         display: flex;
         justify-content: center;

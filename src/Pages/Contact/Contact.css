@@ -128,12 +128,12 @@ label {
 
   .formContact{
     width: 100%;
-    border: 3px solid #1c3469;
-    filter: drop-shadow(0 0 6px #0448dc) drop-shadow(0 0 6px #0b152ca5);
+    border: 3px solid #3f005f36;
+    filter: drop-shadow(0 0 3px #0448dc) drop-shadow(0 0 3px #0b152ca5);
   }
   .input, .messageInput {
     width: 60%;
-    border: 3px solid #aa00ff;
+    border: 1px solid #c552ff;
     filter: drop-shadow(0 0 2px #aa00ff36) drop-shadow(0 0 2px #aa00ff44);
   }
   .sendButton {

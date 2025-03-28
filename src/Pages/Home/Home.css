@@ -181,6 +181,9 @@
 /* Versión móvil (tamaño máximo 768px) */
 @media (max-width: 768px) {
   .homePage {
+
+    background-image: url("../../../public/back1.JPG");
+    background-repeat:repeat-y;
     display: flex;
     padding: 20px;
     align-items: flex-start;
@@ -192,6 +195,7 @@
   }
 
   .h1 {
+    color:#1530a7;
     font-size: 40px;
     text-align: center;
     padding: 0px 30px;
@@ -199,6 +203,7 @@
   }
 
   .h3 {
+    color: #1530a7;
     font-size: 22px;
     text-align: center;
     padding: 0px 30px;
@@ -222,6 +227,7 @@
     left: 5%;
     width: 90%;
     position: absolute;
+    filter: drop-shadow(0 0 6px #cc00ff) drop-shadow(0 0 6px #cc00ff);
   }
 
   .tittleButton {
@@ -230,6 +236,8 @@
     padding: 8px 0;
     padding: 16px 10px;
     border-radius: 80px;
+    border: 2px #e1bdff;
+    background: #c279fe;
   }
 
   .misProyectos{
@@ -237,6 +245,7 @@
     margin-left: 25%;
     margin-top: 120px;
     font-size: 26px;
+    color:#f1f1f1;
 }
   .projects-container {
     width: 80%;
@@ -255,12 +264,21 @@
   .smartphone {
     width: 90%;
     margin-bottom: 20px;
+    border: 2px solid #489dff;
+    filter: drop-shadow(0 0 3px #0a5aaa) drop-shadow(0 0 3px #2391ff);
+    box-shadow: none;
   }
 
   .projectImage {
     width: 100%;
     height: auto;
     padding: 10px 0;
+  }
+  .smartphone .screen {
+    width: 100%;
+    height: 98%;
+    background: linear-gradient(to bottom, #6589bc, #ffffff, #659cbc);
+  
   }
   
 }
